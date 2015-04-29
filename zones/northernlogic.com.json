@@ -1,6 +1,11 @@
 {
   "name": "northernlogic.com",
   "records": [
-
+    {
+      "name": "z",
+      "type": "A",
+      "ttl": 3600,
+      "content": "1.2.3.4"
+    }
   ]
 }

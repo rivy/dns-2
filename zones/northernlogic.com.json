@@ -68,12 +68,6 @@
       "content": "10.19.1.60"
     },
     {
-      "name": "a-apc-1",
-      "type": "A",
-      "ttl": 3600,
-      "content": "10.19.1.50"
-    },
-    {
       "name": "a-ether-rain-2",
       "type": "A",
       "ttl": 3600,

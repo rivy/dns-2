@@ -485,12 +485,6 @@
       "content": "64.34.161.56"
     },
     {
-      "name": "4532CM",
-      "type": "A",
-      "ttl": 3600,
-      "content": "70.121.54.93"
-    },
-    {
       "name": "vb-homeseer.hamachi",
       "type": "A",
       "ttl": 3600,

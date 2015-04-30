@@ -2,6 +2,18 @@
   "name": "northernlogic.com",
   "records": [
     {
+      "name": "", "type": "MX",
+      "content": "30606061.in1.mandrillapp.com",
+      "prio": 10,
+      "ttl": 3600
+    },
+    {
+      "name": "", "type": "MX",
+      "content": "30606061.in2.mandrillapp.com",
+      "prio": 20,
+      "ttl": 3600
+    },
+    {
       "name": "a-sdns-4",
       "type": "A",
       "ttl": 3600,
@@ -90,41 +102,6 @@
       "type": "TXT",
       "ttl": 3600,
       "content": "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\""
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ASPMX3.GOOGLEMAIL.COM",
-      "prio": 30
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ASPMX2.GOOGLEMAIL.COM",
-      "prio": 30
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ALT2.ASPMX.L.GOOGLE.COM",
-      "prio": 20
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ALT1.ASPMX.L.GOOGLE.COM",
-      "prio": 20
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ASPMX.L.GOOGLE.COM",
-      "prio": 10
     },
     {
       "name": "localhost",
@@ -1715,34 +1692,6 @@
       "type": "TXT",
       "ttl": 3600,
       "content": "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\""
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ASPMX3.GOOGLEMAIL.COM",
-      "prio": 30
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ASPMX2.GOOGLEMAIL.COM",
-      "prio": 30
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ALT2.ASPMX.L.GOOGLE.COM",
-      "prio": 20
-    },
-    {
-      "name": "",
-      "type": "MX",
-      "ttl": 3600,
-      "content": "ASPMX.L.GOOGLE.COM",
-      "prio": 10
     },
     {
       "name": "localhost",

@@ -3,14 +3,8 @@
   "records": [
     {
       "name": "", "type": "MX",
-      "content": "30606061.in1.mandrillapp.com",
+      "content": "ubuntu-002.cloudapp.net",
       "prio": 10,
-      "ttl": 3600
-    },
-    {
-      "name": "", "type": "MX",
-      "content": "30606061.in2.mandrillapp.com",
-      "prio": 20,
       "ttl": 3600
     },
     {

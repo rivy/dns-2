@@ -8,6 +8,24 @@
       "ttl": 3600
     },
     {
+      "#":"Mailgun SPF",
+      "name": "mg.northernlogic.com", "type": "TXT",
+      "content": "v=spf1 include:mailgun.org ~all",
+      "ttl": 3600
+    },
+    {
+      "#":"Mailgun DKIM",
+      "name": "krs._domainkey.mg.northernlogic.com", "type": "TXT",
+      "content": "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpRWrHlJydjW3sb+VxcnCdhFmjgsEW1YSXSDl9wjLxvsT/qXTmezVAM5pwCJGHJrx8nh42u7pwARfkLJFX+QZvRt0DtpxQ4OWv5zOsyZOQ5qOpNg+Cl7Q5GLBBz1G7fwB/e3zaO9sLuMZvxZVYBjwpN/J2iY4z6Vbz9PtUvfMSpQIDAQAB",
+      "ttl": 3600
+    },
+    {
+      "#":"Mailgun tracking",
+      "name": "email.mg.northernlogic.com", "type": "CNAME",
+      "content": "mailgun.org",
+      "ttl": 3600
+    },
+    {
       "name": "a-sdns-4",
       "type": "A",
       "ttl": 3600,

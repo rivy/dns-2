@@ -8,6 +8,7 @@
          "type" : "A"
       },
       {
+         ";" : "; AzureVM postfix mail server",
          "content" : "ubuntu-002.cloudapp.net",
          "name" : "",
          "prio" : 10,
@@ -21,30 +22,35 @@
          "type" : "CNAME"
       },
       {
+         ";" : "; MailGun SPF",
          "content" : "\"v=spf1 include:mailgun.org ~all\"",
          "name" : "mg",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
+         ";" : "; MailGun DKIM",
          "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpRWrHlJydjW3sb+VxcnCdhFmjgsEW1YSXSDl9wjLxvsT/qXTmezVAM5pwCJGHJrx8nh42u7pwARfkLJFX+QZvRt0DtpxQ4OWv5zOsyZOQ5qOpNg+Cl7Q5GLBBz1G7fwB/e3zaO9sLuMZvxZVYBjwpN/J2iY4z6Vbz9PtUvfMSpQIDAQAB\"",
          "name" : "krs._domainkey.mg",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
+         ";" : "; MailGun tracking",
          "content" : "mailgun.org.northernlogic.com.",
          "name" : "email.mg",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
+         ";" : ";; (alias) firewall-houseofivy.mooo.com.",
          "content" : "firewall-houseofivy.mooo.com.",
          "name" : "",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
+         ";" : ";; (alias) firewall-houseofivy.mooo.com.",
          "content" : "firewall-houseofivy.mooo.com.",
          "name" : "a-default",
          "ttl" : 3600,
@@ -63,24 +69,28 @@
          "type" : "CNAME"
       },
       {
+         ";" : ";; alias:ns1.dnsimple.com.",
          "content" : "ns1.dnsimple.com.",
          "name" : "a-dns-1",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
+         ";" : ";; alias:ns2.dnsimple.com.",
          "content" : "ns2.dnsimple.com.",
          "name" : "a-dns-2",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
+         ";" : ";; (alias) ns3.dnsimple.com.",
          "content" : "ns3.dnsimple.com.",
          "name" : "a-dns-3",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
+         ";" : ";; (alias) ns4.dnsimple.com.",
          "content" : "ns4.dnsimple.com.",
          "name" : "a-dns-4",
          "ttl" : 3600,
@@ -93,162 +103,189 @@
          "type" : "A"
       },
       {
+         ";" : ";: OpenVPN reservation (using TUN)",
          "content" : "10.20.1.14",
          "name" : "a-dns-2-lan",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; Google public nameserver [https://developers.google.com/speed/public-dns/?csw=1 @@ https://archive.is/6KXKU]",
          "content" : "8.8.8.8",
          "name" : "a-rdns-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; Google public nameserver [https://developers.google.com/speed/public-dns/?csw=1 @@ https://archive.is/6KXKU]",
          "content" : "8.8.4.4",
          "name" : "a-rdns-2",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; router",
          "content" : "10.19.1.1",
          "name" : "a-pipe",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; WAP (Linksys WRT610Nv2)",
          "content" : "10.19.1.2",
          "name" : "a-wrt610n-v2-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; WAP (Linksys WRT610Nv2)",
          "content" : "10.19.1.3",
          "name" : "a-wrt610n-v2-2",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; WAP (Linksys WRT610Nv2)",
          "content" : "10.19.1.4",
          "name" : "a-wrt610n-v2-3",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; switch (Netgear GS748T 48-port gigabit switch)",
          "content" : "10.19.1.5",
          "name" : "a-gs748t",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; AP (EnGenius ESR-1221 Nano Router)",
          "content" : "10.19.1.6",
          "name" : "a-esr-1221",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; SMTP server ;: OpenVPN reservations (using TUN) [ NOTE: should have corresponding revIPs ]",
          "content" : "10.20.1.14",
          "name" : "a-smtp-lan",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; NAS (Western Digital My Book World Edition II)",
          "content" : "10.19.1.20",
          "name" : "a-wd-mybookwe-ii-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; NAS (Western Digital My Book World Edition II)",
          "content" : "10.19.1.21",
          "name" : "a-wd-mybookwe-ii-2",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; NAS (QNAP TS-859 PRO)",
          "content" : "10.19.1.22",
          "name" : "a-qnap-ts-859p-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; NAS (QNAP TS-1679 PRO)",
          "content" : "10.19.1.23",
          "name" : "a-qnap-ts-1679u-rp-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; Brother MFC-9840CDW Printer",
          "content" : "10.19.1.30",
          "name" : "a-BRNF15EE7",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; HomeSeer VM",
          "content" : "10.19.1.31",
          "name" : "a-vm-homeseer",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; Ubuntu VM",
          "content" : "10.19.1.32",
          "name" : "a-vm-ubuntu-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; Kubuntu VM",
          "content" : "10.19.1.33",
          "name" : "a-vm-kubuntu-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; Linux Mint VM",
          "content" : "10.19.1.34",
          "name" : "a-vm-linuxmint-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; ThinQ COM Port IP Server",
          "content" : "10.19.1.40",
          "name" : "a-qse-100d-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; Lantronix xPrintServer",
          "content" : "10.19.1.41",
          "name" : "a-xprintserver",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; Cyber-rain Irrigation Controller",
          "content" : "10.19.1.42",
          "name" : "a-cyber-rain",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; EtherRain 7P Irrigation Controller",
          "content" : "10.19.1.43",
          "name" : "a-ether-rain-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; EtherRain 7P Irrigation Controller",
          "content" : "10.19.1.44",
          "name" : "a-ether-rain-2",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; APC Smart-UPS 1000",
          "content" : "10.19.1.50",
          "name" : "a-apc-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; IP camera",
          "content" : "10.19.1.60",
          "name" : "a-camera-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
+         ";" : ";; IP camera",
          "content" : "10.19.1.61",
          "name" : "a-isy-1",
          "ttl" : 3600,
@@ -375,30 +412,35 @@
          "type" : "CNAME"
       },
       {
+         ";" : ";; ALIAS firewall-houseofivy.mooo.com",
          "content" : "firewall-houseofivy.mooo.com",
          "name" : "4532CM",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
+         ";" : ";; ALIAS: a-sb-2.wotw.net",
          "content" : "a-sb-2.wotw.net",
          "name" : "TAG",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
+         ";" : ";; (alias) a-vm-ubuntu-1.houseOfIvy.net",
          "content" : "a-vm-ubuntu-1.houseOfIvy.net",
          "name" : "VB-ubuntu",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
+         ";" : ";; (ALIAS) a-vm-kubuntu-1.houseOfIvy.net",
          "content" : "a-vm-kubuntu-1.houseOfIvy.net",
          "name" : "VB-kubuntu",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
+         ";" : ";; (ALIAS) a-vm-linuxmint-1.houseOfIvy.net",
          "content" : "a-vm-linuxmint-1.houseOfIvy.net",
          "name" : "VB-linuxmint",
          "ttl" : 3600,
@@ -1194,6 +1236,7 @@
          "type" : "CNAME"
       },
       {
+         ";" : ";; ALIAS:a-sb-2.wotw.net",
          "content" : "a-sb-2.wotw.net",
          "name" : "xx",
          "ttl" : 3600,

@@ -6,6 +6,13 @@
          "name" : "localhost.northernlogic.com.",
          "ttl" : 3600,
          "type" : "A"
+      },
+      {
+         "content" : "ubuntu-002.cloudapp.net",
+         "name" : "northernlogic.com.",
+         "prio" : 10,
+         "ttl" : 3600,
+         "type" : "MX"
       }
    ]
 }

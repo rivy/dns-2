@@ -3,7 +3,7 @@
    "records" : [
       {
          "content" : "127.0.0.1",
-         "name" : "localhost.",
+         "name" : "localhost",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -16,25 +16,25 @@
       },
       {
          "content" : "sendgrid.net.",
-         "name" : "sendgrid.",
+         "name" : "sendgrid",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "\"v=spf1 include:mailgun.org ~all\"",
-         "name" : "mg.",
+         "name" : "mg",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpRWrHlJydjW3sb+VxcnCdhFmjgsEW1YSXSDl9wjLxvsT/qXTmezVAM5pwCJGHJrx8nh42u7pwARfkLJFX+QZvRt0DtpxQ4OWv5zOsyZOQ5qOpNg+Cl7Q5GLBBz1G7fwB/e3zaO9sLuMZvxZVYBjwpN/J2iY4z6Vbz9PtUvfMSpQIDAQAB\"",
-         "name" : "krs._domainkey.mg.",
+         "name" : "krs._domainkey.mg",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "mailgun.org.northernlogic.com.",
-         "name" : "email.mg.",
+         "name" : "email.mg",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -46,1156 +46,1156 @@
       },
       {
          "content" : "firewall-houseofivy.mooo.com.",
-         "name" : "a-default.",
+         "name" : "a-default",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "firewall-houseofivy.mooo.com.",
-         "name" : "d-firewall.",
+         "name" : "d-firewall",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "firewall-houseofivy.mooo.com.",
-         "name" : "d-vpn.",
+         "name" : "d-vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ns1.dnsimple.com.",
-         "name" : "a-dns-1.",
+         "name" : "a-dns-1",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "ns2.dnsimple.com.",
-         "name" : "a-dns-2.",
+         "name" : "a-dns-2",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "ns3.dnsimple.com.",
-         "name" : "a-dns-3.",
+         "name" : "a-dns-3",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "ns4.dnsimple.com.",
-         "name" : "a-dns-4.",
+         "name" : "a-dns-4",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "10.19.1.1",
-         "name" : "a-dns-1-lan.",
+         "name" : "a-dns-1-lan",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.20.1.14",
-         "name" : "a-dns-2-lan.",
+         "name" : "a-dns-2-lan",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "8.8.8.8",
-         "name" : "a-rdns-1.",
+         "name" : "a-rdns-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "8.8.4.4",
-         "name" : "a-rdns-2.",
+         "name" : "a-rdns-2",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.1",
-         "name" : "a-pipe.",
+         "name" : "a-pipe",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.2",
-         "name" : "a-wrt610n-v2-1.",
+         "name" : "a-wrt610n-v2-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.3",
-         "name" : "a-wrt610n-v2-2.",
+         "name" : "a-wrt610n-v2-2",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.4",
-         "name" : "a-wrt610n-v2-3.",
+         "name" : "a-wrt610n-v2-3",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.5",
-         "name" : "a-gs748t.",
+         "name" : "a-gs748t",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.6",
-         "name" : "a-esr-1221.",
+         "name" : "a-esr-1221",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.20.1.14",
-         "name" : "a-smtp-lan.",
+         "name" : "a-smtp-lan",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.20",
-         "name" : "a-wd-mybookwe-ii-1.",
+         "name" : "a-wd-mybookwe-ii-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.21",
-         "name" : "a-wd-mybookwe-ii-2.",
+         "name" : "a-wd-mybookwe-ii-2",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.22",
-         "name" : "a-qnap-ts-859p-1.",
+         "name" : "a-qnap-ts-859p-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.23",
-         "name" : "a-qnap-ts-1679u-rp-1.",
+         "name" : "a-qnap-ts-1679u-rp-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.30",
-         "name" : "a-BRNF15EE7.",
+         "name" : "a-BRNF15EE7",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.31",
-         "name" : "a-vm-homeseer.",
+         "name" : "a-vm-homeseer",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.32",
-         "name" : "a-vm-ubuntu-1.",
+         "name" : "a-vm-ubuntu-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.33",
-         "name" : "a-vm-kubuntu-1.",
+         "name" : "a-vm-kubuntu-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.34",
-         "name" : "a-vm-linuxmint-1.",
+         "name" : "a-vm-linuxmint-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.40",
-         "name" : "a-qse-100d-1.",
+         "name" : "a-qse-100d-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.41",
-         "name" : "a-xprintserver.",
+         "name" : "a-xprintserver",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.42",
-         "name" : "a-cyber-rain.",
+         "name" : "a-cyber-rain",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.43",
-         "name" : "a-ether-rain-1.",
+         "name" : "a-ether-rain-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.44",
-         "name" : "a-ether-rain-2.",
+         "name" : "a-ether-rain-2",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.50",
-         "name" : "a-apc-1.",
+         "name" : "a-apc-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.60",
-         "name" : "a-camera-1.",
+         "name" : "a-camera-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "10.19.1.61",
-         "name" : "a-isy-1.",
+         "name" : "a-isy-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.144.171.254",
-         "name" : "sethra.hamachi.",
+         "name" : "sethra.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.201.35.52",
-         "name" : "grym.hamachi.",
+         "name" : "grym.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.112.213.133",
-         "name" : "grym-o.hamachi.",
+         "name" : "grym-o.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.165.98.171",
-         "name" : "loish.hamachi.",
+         "name" : "loish.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.141.215.245",
-         "name" : "verra.hamachi.",
+         "name" : "verra.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.233.19.140",
-         "name" : "wynd.hamachi.",
+         "name" : "wynd.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.248.184.212",
-         "name" : "vb-ubuntu.hamachi.",
+         "name" : "vb-ubuntu.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.204.173.61",
-         "name" : "vb-xp.hamachi.",
+         "name" : "vb-xp.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.18.210.85",
-         "name" : "vb-v.hamachi.",
+         "name" : "vb-v.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.215.104.105",
-         "name" : "vb-v64.hamachi.",
+         "name" : "vb-v64.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "5.54.70.221",
-         "name" : "vb-homeseer.hamachi.",
+         "name" : "vb-homeseer.hamachi",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "a-smtp.northernlogic.com.",
-         "name" : "smtp-ovpn.",
+         "name" : "smtp-ovpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "smtp-ovpn.northernlogic.com.",
-         "name" : "smtp.ovpn.",
+         "name" : "smtp.ovpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ubuntu-001.cloudapp.net.",
-         "name" : "cs-ubuntu-001.",
+         "name" : "cs-ubuntu-001",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ubuntu-002.cloudapp.net.",
-         "name" : "cs-ubuntu-002.",
+         "name" : "cs-ubuntu-002",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ubuntu-001.northernlogic.com.",
-         "name" : "ubuntu.",
+         "name" : "ubuntu",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "cs-ubuntu-001.northernlogic.com.",
-         "name" : "ubuntu-001.",
+         "name" : "ubuntu-001",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "cs-ubuntu-002.northernlogic.com.",
-         "name" : "ubuntu-002.",
+         "name" : "ubuntu-002",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "cs-ubuntu-001.northernlogic.com.",
-         "name" : "ubuntu-1.",
+         "name" : "ubuntu-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "cs-ubuntu-002.northernlogic.com.",
-         "name" : "ubuntu-2.",
+         "name" : "ubuntu-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "firewall-houseofivy.mooo.com",
-         "name" : "4532CM.",
+         "name" : "4532CM",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "a-sb-2.wotw.net",
-         "name" : "TAG.",
+         "name" : "TAG",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "a-vm-ubuntu-1.houseOfIvy.net",
-         "name" : "VB-ubuntu.",
+         "name" : "VB-ubuntu",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "a-vm-kubuntu-1.houseOfIvy.net",
-         "name" : "VB-kubuntu.",
+         "name" : "VB-kubuntu",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "a-vm-linuxmint-1.houseOfIvy.net",
-         "name" : "VB-linuxmint.",
+         "name" : "VB-linuxmint",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
          "content" : "a-default.northernlogic.com.",
-         "name" : "default.",
+         "name" : "default",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-dns-1.northernlogic.com.",
-         "name" : "dns-1.",
+         "name" : "dns-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-dns-2.northernlogic.com.",
-         "name" : "dns-2.",
+         "name" : "dns-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-dns-3.northernlogic.com.",
-         "name" : "dns-3.",
+         "name" : "dns-3",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-dns-4.northernlogic.com.",
-         "name" : "dns-4.",
+         "name" : "dns-4",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-dns-1-lan.northernlogic.com.",
-         "name" : "dns-1-lan.",
+         "name" : "dns-1-lan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-dns-2-lan.northernlogic.com.",
-         "name" : "dns-2-lan.",
+         "name" : "dns-2-lan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.wotw.net.",
-         "name" : "grym.",
+         "name" : "grym",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "wynd.wotw.net.",
-         "name" : "wynd.",
+         "name" : "wynd",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "dns-1.northernlogic.com.",
-         "name" : "ns.",
+         "name" : "ns",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "dns-1.northernlogic.com.",
-         "name" : "dns.",
+         "name" : "dns",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-rdns-1.northernlogic.com.",
-         "name" : "rdns-1.",
+         "name" : "rdns-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-rdns-2.northernlogic.com.",
-         "name" : "rdns-2.",
+         "name" : "rdns-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "rdns-1.northernlogic.com.",
-         "name" : "rdns.",
+         "name" : "rdns",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ghs.google.com.",
-         "name" : "mail.",
+         "name" : "mail",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ghs.google.com.",
-         "name" : "calendar.",
+         "name" : "calendar",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ghs.google.com.",
-         "name" : "docs.",
+         "name" : "docs",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ghs.google.com.",
-         "name" : "sites.",
+         "name" : "sites",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ghs.google.com.",
-         "name" : "video.",
+         "name" : "video",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "ghs.google.com.",
-         "name" : "shared-contacts.",
+         "name" : "shared-contacts",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "mail.northernlogic.com.",
-         "name" : "webmail.",
+         "name" : "webmail",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "mail.northernlogic.com.",
-         "name" : "mailhost.",
+         "name" : "mailhost",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "mail.northernlogic.com.",
-         "name" : "pop.",
+         "name" : "pop",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "mail.northernlogic.com.",
-         "name" : "pop3.",
+         "name" : "pop3",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "mail.northernlogic.com.",
-         "name" : "smtp.",
+         "name" : "smtp",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-smtp-lan.northernlogic.com.",
-         "name" : "smtp.lan.",
+         "name" : "smtp.lan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-smtp-lan.northernlogic.com.",
-         "name" : "smtp-lan.",
+         "name" : "smtp-lan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.northernlogic.com.",
-         "name" : "talk.",
+         "name" : "talk",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.northernlogic.com.",
-         "name" : "ts.",
+         "name" : "ts",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.northernlogic.com.",
-         "name" : "teamspeak.",
+         "name" : "teamspeak",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.northernlogic.com.",
-         "name" : "vent.",
+         "name" : "vent",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.northernlogic.com.",
-         "name" : "ventrilo.",
+         "name" : "ventrilo",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-pipe.northernlogic.com.",
-         "name" : "pipe.",
+         "name" : "pipe",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "pipe.northernlogic.com.",
-         "name" : "gateway.",
+         "name" : "gateway",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "d-firewall.northernlogic.com.",
-         "name" : "firewall.",
+         "name" : "firewall",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "firewall.northernlogic.com.",
-         "name" : "fw.",
+         "name" : "fw",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "d-vpn.northernlogic.com.",
-         "name" : "vpn.",
+         "name" : "vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "d-mobile.northernlogic.com.",
-         "name" : "mobile.",
+         "name" : "mobile",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "default.northernlogic.com.",
-         "name" : "www.",
+         "name" : "www",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.wotw.net.",
-         "name" : "ftp.",
+         "name" : "ftp",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "us.pool.ntp.org.",
-         "name" : "time.",
+         "name" : "time",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-BRNF15EE7.northernlogic.com.",
-         "name" : "print.",
+         "name" : "print",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "print.northernlogic.com.",
-         "name" : "ps.",
+         "name" : "ps",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "print.northernlogic.com.",
-         "name" : "scan.",
+         "name" : "scan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-qse-100d-1.northernlogic.com.",
-         "name" : "qse-100d-0.",
+         "name" : "qse-100d-0",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-qse-100d-1.northernlogic.com.",
-         "name" : "qse-100d-1.",
+         "name" : "qse-100d-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qse-100d-1.northernlogic.com.",
-         "name" : "ip-ports-1.",
+         "name" : "ip-ports-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qse-100d-1.northernlogic.com.",
-         "name" : "ip-com-1.",
+         "name" : "ip-com-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-xPrintServer.northernlogic.com.",
-         "name" : "xPrintServer.",
+         "name" : "xPrintServer",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-cyber-rain.northernlogic.com.",
-         "name" : "cyber-rain.",
+         "name" : "cyber-rain",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-vm-homeseer.northernlogic.com.",
-         "name" : "vm-homeseer.",
+         "name" : "vm-homeseer",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "vm-homeseer.northernlogic.com.",
-         "name" : "vb-homeseer.",
+         "name" : "vb-homeseer",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "vm-homeseer.northernlogic.com.",
-         "name" : "homeseer.",
+         "name" : "homeseer",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "vm-homeseer.northernlogic.com.",
-         "name" : "hs.",
+         "name" : "hs",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "VB-ubuntu.northernlogic.com.",
-         "name" : "vm-ubuntu.",
+         "name" : "vm-ubuntu",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "VB-kubuntu.northernlogic.com.",
-         "name" : "vm-kubuntu.",
+         "name" : "vm-kubuntu",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "VB-linuxmint.northernlogic.com.",
-         "name" : "vm-linuxmint.",
+         "name" : "vm-linuxmint",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "firewall.northernlogic.com.",
-         "name" : "rivy.",
+         "name" : "rivy",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-wrt610n-v2-1.northernlogic.com.",
-         "name" : "wap-1.",
+         "name" : "wap-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-wrt610n-v2-2.northernlogic.com.",
-         "name" : "wap-2.",
+         "name" : "wap-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-wrt610n-v2-3.northernlogic.com.",
-         "name" : "wap-3.",
+         "name" : "wap-3",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-esr-1221.northernlogic.com.",
-         "name" : "ap-1.",
+         "name" : "ap-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-gs748t.northernlogic.com.",
-         "name" : "sw-1.",
+         "name" : "sw-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-qnap-ts-859p-1.northernlogic.com.",
-         "name" : "qnap-ts-859-1.",
+         "name" : "qnap-ts-859-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-qnap-ts-1679u-rp-1.northernlogic.com.",
-         "name" : "qnap-ts-1679-1.",
+         "name" : "qnap-ts-1679-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qnap-ts-859-1.northernlogic.com.",
-         "name" : "qnap-1.",
+         "name" : "qnap-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qnap-ts-1679-1.northernlogic.com.",
-         "name" : "qnap-2.",
+         "name" : "qnap-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qnap-1.northernlogic.com.",
-         "name" : "qnap.",
+         "name" : "qnap",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qnap-1.northernlogic.com.",
-         "name" : "nas-1.",
+         "name" : "nas-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qnap-2.northernlogic.com.",
-         "name" : "nas-2.",
+         "name" : "nas-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "nas-1.northernlogic.com.",
-         "name" : "nas.",
+         "name" : "nas",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qnap-2.northernlogic.com.",
-         "name" : "hoard.",
+         "name" : "hoard",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "qnap-2.northernlogic.com.",
-         "name" : "media.",
+         "name" : "media",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "sethra.hamachi.northernlogic.com.",
-         "name" : "sethra.vpn.",
+         "name" : "sethra.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.hamachi.northernlogic.com.",
-         "name" : "grym.vpn.",
+         "name" : "grym.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "loish.hamachi.northernlogic.com.",
-         "name" : "loish.vpn.",
+         "name" : "loish.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "verra.hamachi.northernlogic.com.",
-         "name" : "verra.vpn.",
+         "name" : "verra.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "wynd.hamachi.northernlogic.com.",
-         "name" : "wynd.vpn.",
+         "name" : "wynd.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "vb-ubuntu.hamachi.northernlogic.com.",
-         "name" : "vm-ubuntu.vpn.",
+         "name" : "vm-ubuntu.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "vb-xp.hamachi.northernlogic.com.",
-         "name" : "vm-xp.vpn.",
+         "name" : "vm-xp.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "vb-v.hamachi.northernlogic.com.",
-         "name" : "vm-v.vpn.",
+         "name" : "vm-v.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "vb-v64.hamachi.northernlogic.com.",
-         "name" : "vm-v64.vpn.",
+         "name" : "vm-v64.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "vb-homeseer.hamachi.northernlogic.com.",
-         "name" : "vm-homeseer.vpn.",
+         "name" : "vm-homeseer.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "grym.vpn.northernlogic.com.",
-         "name" : "smtp.vpn.",
+         "name" : "smtp.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-smtp.wotw.net",
-         "name" : "TAG.",
+         "name" : "TAG",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "TAG.",
+         "name" : "TAG",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.TAG.",
+         "name" : "spf.TAG",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "a-smtp.wotw.net",
-         "name" : "4532CM.",
+         "name" : "4532CM",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "4532CM.",
+         "name" : "4532CM",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.4532CM.",
+         "name" : "spf.4532CM",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "ASPMX.L.GOOGLE.COM",
-         "name" : "vb-ubuntu.",
+         "name" : "vb-ubuntu",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ALT1.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-ubuntu.",
+         "name" : "vb-ubuntu",
          "prio" : 20,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ALT2.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-ubuntu.",
+         "name" : "vb-ubuntu",
          "prio" : 20,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX2.GOOGLEMAIL.COM",
-         "name" : "vb-ubuntu.",
+         "name" : "vb-ubuntu",
          "prio" : 30,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX3.GOOGLEMAIL.COM",
-         "name" : "vb-ubuntu.",
+         "name" : "vb-ubuntu",
          "prio" : 30,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "vb-ubuntu.northernlogic.com",
-         "name" : "vb-ubuntu.",
+         "name" : "vb-ubuntu",
          "prio" : 99,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "vb-ubuntu.",
+         "name" : "vb-ubuntu",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.vb-ubuntu.",
+         "name" : "spf.vb-ubuntu",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "google-site-verification=ch43EFcgt8IAnMJenEF6mqBCvL13ZcX26zOefwRByWE",
-         "name" : "vb-ubuntu.",
+         "name" : "vb-ubuntu",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "ASPMX.L.GOOGLE.COM",
-         "name" : "vb-kubuntu.",
+         "name" : "vb-kubuntu",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ALT1.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-kubuntu.",
+         "name" : "vb-kubuntu",
          "prio" : 20,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ALT2.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-kubuntu.",
+         "name" : "vb-kubuntu",
          "prio" : 20,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX2.GOOGLEMAIL.COM",
-         "name" : "vb-kubuntu.",
+         "name" : "vb-kubuntu",
          "prio" : 30,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX3.GOOGLEMAIL.COM",
-         "name" : "vb-kubuntu.",
+         "name" : "vb-kubuntu",
          "prio" : 30,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "vb-kubuntu.northernlogic.com",
-         "name" : "vb-kubuntu.",
+         "name" : "vb-kubuntu",
          "prio" : 99,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "vb-kubuntu.",
+         "name" : "vb-kubuntu",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.vb-kubuntu.",
+         "name" : "spf.vb-kubuntu",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "google-site-verification=ppzNW7JlVH4Qh_dx-fwKuC-XgHRux8eDbU2p6fEpxr4",
-         "name" : "vb-kubuntu.",
+         "name" : "vb-kubuntu",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "ASPMX.L.GOOGLE.COM",
-         "name" : "vb-linuxmint.",
+         "name" : "vb-linuxmint",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ALT1.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-linuxmint.",
+         "name" : "vb-linuxmint",
          "prio" : 20,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ALT2.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-linuxmint.",
+         "name" : "vb-linuxmint",
          "prio" : 20,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX2.GOOGLEMAIL.COM",
-         "name" : "vb-linuxmint.",
+         "name" : "vb-linuxmint",
          "prio" : 30,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX3.GOOGLEMAIL.COM",
-         "name" : "vb-linuxmint.",
+         "name" : "vb-linuxmint",
          "prio" : 30,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "vb-linuxmint.northernlogic.com",
-         "name" : "vb-linuxmint.",
+         "name" : "vb-linuxmint",
          "prio" : 99,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "vb-linuxmint.",
+         "name" : "vb-linuxmint",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.vb-linuxmint.",
+         "name" : "spf.vb-linuxmint",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "google-site-verification=BRRev9BU0j-G9JGcgLCb2p_fLZES01BMAKLmOKdWVWE",
-         "name" : "vb-linuxmint.",
+         "name" : "vb-linuxmint",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "a-smtp.wotw.net",
-         "name" : "X.",
+         "name" : "X",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX.L.GOOGLE.COM",
-         "name" : "X.",
+         "name" : "X",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ALT1.ASPMX.L.GOOGLE.COM",
-         "name" : "X.",
+         "name" : "X",
          "prio" : 20,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ALT2.ASPMX.L.GOOGLE.COM",
-         "name" : "X.",
+         "name" : "X",
          "prio" : 20,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX2.GOOGLEMAIL.COM",
-         "name" : "X.",
+         "name" : "X",
          "prio" : 30,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "ASPMX3.GOOGLEMAIL.COM",
-         "name" : "X.",
+         "name" : "X",
          "prio" : 30,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "X.northernlogic.com",
-         "name" : "X.",
+         "name" : "X",
          "prio" : 99,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "X.",
+         "name" : "X",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.X.",
+         "name" : "spf.X",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          "content" : "gv-KALMYEKCTKILPRBIXE5FFUFY5HXOUCNVWA7T6GMJJKW7VORULUCQ.domainverify.googlehosted.com.",
-         "name" : "KB345VBQQPCM.X.",
+         "name" : "KB345VBQQPCM.X",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "content" : "a-sb-2.wotw.net",
-         "name" : "xx.",
+         "name" : "xx",
          "ttl" : 3600,
          "type" : "ALIAS"
       }

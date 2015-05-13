@@ -3,13 +3,13 @@
    "records" : [
       {
          "content" : "127.0.0.1",
-         "name" : "localhost",
+         "name" : "localhost.northernlogic.com.",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          "content" : "ubuntu-002.cloudapp.net",
-         "name" : "@",
+         "name" : "northernlogic.com.",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"

@@ -56,15 +56,23 @@
          ";" : "; MailGun SPF",
          "class" : "IN",
          "content" : "\"v=spf1 include:mailgun.org ~all\"",
-         "name" : "mg",
+         "name" : "",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
-         ";" : "; MailGun DKIM",
+         ";" : "; MailGun tracking (?needed/wanted)",
          "class" : "IN",
-         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpRWrHlJydjW3sb+VxcnCdhFmjgsEW1YSXSDl9wjLxvsT/qXTmezVAM5pwCJGHJrx8nh42u7pwARfkLJFX+QZvRt0DtpxQ4OWv5zOsyZOQ5qOpNg+Cl7Q5GLBBz1G7fwB/e3zaO9sLuMZvxZVYBjwpN/J2iY4z6Vbz9PtUvfMSpQIDAQAB\"",
-         "name" : "krs._domainkey.mg",
+         "content" : "mailgun.org.",
+         "name" : "email",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         ";" : "; MailGun SPF",
+         "class" : "IN",
+         "content" : "\"v=spf1 include:mailgun.org ~all\"",
+         "name" : "mg",
          "ttl" : 3600,
          "type" : "TXT"
       },
@@ -75,6 +83,62 @@
          "name" : "email.mg",
          "ttl" : 3600,
          "type" : "CNAME"
+      },
+      {
+         ";" : "; MailGun DKIM",
+         "class" : "IN",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpRWrHlJydjW3sb+VxcnCdhFmjgsEW1YSXSDl9wjLxvsT/qXTmezVAM5pwCJGHJrx8nh42u7pwARfkLJFX+QZvRt0DtpxQ4OWv5zOsyZOQ5qOpNg+Cl7Q5GLBBz1G7fwB/e3zaO9sLuMZvxZVYBjwpN/J2iY4z6Vbz9PtUvfMSpQIDAQAB\"",
+         "name" : "krs._domainkey.mg",
+         "ttl" : 3600,
+         "type" : "TXT"
+      },
+      {
+         ";" : "; MailGun SPF",
+         "class" : "IN",
+         "content" : "\"v=spf1 include:mailgun.org ~all\"",
+         "name" : "mg-northernlogic",
+         "ttl" : 3600,
+         "type" : "TXT"
+      },
+      {
+         ";" : "; MailGun tracking",
+         "class" : "IN",
+         "content" : "mailgun.org.",
+         "name" : "email.mg-northernlogic",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         ";" : "; MailGun DKIM",
+         "class" : "IN",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZeaPi5QYuHy56V9AKl35eAGRq/lfqm6TbqpgEOPp/nnKxau4i4fHIdTMI3tu2pElR15iIWhW7AduM4cvUUJQM1PEwXiAep0GeaDVgZWZsLsSw3TnaO6ILt2LGsYXHO2Pz07IEY+gRLpuxOISCu/O7C6t384v07oQ/+29EEvt6DwIDAQAB\"",
+         "name" : "mx._domainkey.mg-northernlogic",
+         "ttl" : 3600,
+         "type" : "TXT"
+      },
+      {
+         ";" : "; MailGun SPF",
+         "class" : "IN",
+         "content" : "\"v=spf1 include:mailgun.org ~all\"",
+         "name" : "mg-alaspin-com",
+         "ttl" : 3600,
+         "type" : "TXT"
+      },
+      {
+         ";" : "; MailGun tracking",
+         "class" : "IN",
+         "content" : "mailgun.org.",
+         "name" : "email.mg-alaspin-com",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         ";" : "; MailGun DKIM",
+         "class" : "IN",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpRWrHlJydjW3sb+VxcnCdhFmjgsEW1YSXSDl9wjLxvsT/qXTmezVAM5pwCJGHJrx8nh42u7pwARfkLJFX+QZvRt0DtpxQ4OWv5zOsyZOQ5qOpNg+Cl7Q5GLBBz1G7fwB/e3zaO9sLuMZvxZVYBjwpN/J2iY4z6Vbz9PtUvfMSpQIDAQAB\"",
+         "name" : "krs._domainkey.mg-northernlogic",
+         "ttl" : 3600,
+         "type" : "TXT"
       },
       {
          ";" : ";; (alias) firewall-houseofivy.mooo.com.",
@@ -155,6 +219,14 @@
          "type" : "ALIAS"
       },
       {
+         ";" : ";; alias:ns4.dnsimple.com.",
+         "class" : "IN",
+         "content" : "ns4.dnsimple.com.",
+         "name" : "a-dns-4",
+         "ttl" : 3600,
+         "type" : "ALIAS"
+      },
+      {
          "class" : "IN",
          "content" : "10.19.1.1",
          "name" : "a-dns-1-lan",
@@ -170,50 +242,18 @@
          "type" : "A"
       },
       {
-         ";" : ";; Peer1 caching nameserver [URLref: http://forums.serverbeach.com/showthread.php?t=7421]",
+         ";" : ";; Google public nameserver [https://developers.google.com/speed/public-dns/?csw=1 @@ https://archive.is/6KXKU]",
          "class" : "IN",
-         "content" : "216.187.125.130",
+         "content" : "8.8.8.8",
          "name" : "a-rdns-1",
          "ttl" : 3600,
          "type" : "A"
       },
       {
-         ";" : ";; Peer1 caching nameserver [URLref: http://forums.serverbeach.com/showthread.php?t=7421]",
+         ";" : ";; Google public nameserver [https://developers.google.com/speed/public-dns/?csw=1 @@ https://archive.is/6KXKU]",
          "class" : "IN",
-         "content" : "216.187.125.131",
+         "content" : "8.8.4.4",
          "name" : "a-rdns-2",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; (alias)superdns-master.ns.peer1.net",
-         "class" : "IN",
-         "content" : "superdns-master.ns.peer1.net",
-         "name" : "a-sdns-1",
-         "ttl" : 3600,
-         "type" : "ALIAS"
-      },
-      {
-         ";" : ";; alias ns1.geodns.net",
-         "class" : "IN",
-         "content" : "ns1.geodns.net",
-         "name" : "a-sdns-2",
-         "ttl" : 3600,
-         "type" : "ALIAS"
-      },
-      {
-         ";" : ";; ALIAS ns2.geodns.net",
-         "class" : "IN",
-         "content" : "ns2.geodns.net",
-         "name" : "a-sdns-3",
-         "ttl" : 3600,
-         "type" : "ALIAS"
-      },
-      {
-         ";" : ";; [NO RevIP] (and errors for DNS update notifications)",
-         "class" : "IN",
-         "content" : "69.90.252.25",
-         "name" : "a-sdns-4",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -619,6 +659,13 @@
       },
       {
          "class" : "IN",
+         "content" : "a-dns-4.alaspin.com.",
+         "name" : "dns-4",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "a-dns-1-lan.alaspin.com.",
          "name" : "dns-1-lan",
          "ttl" : 3600,
@@ -677,41 +724,6 @@
          "class" : "IN",
          "content" : "rdns-1.alaspin.com.",
          "name" : "rdns",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-sdns-1.alaspin.com.",
-         "name" : "sdns-1",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-sdns-2.alaspin.com.",
-         "name" : "sdns-2",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-sdns-3.alaspin.com.",
-         "name" : "sdns-3",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-sdns-4.alaspin.com.",
-         "name" : "sdns-4",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "sdns-1.alaspin.com.",
-         "name" : "sdns",
          "ttl" : 3600,
          "type" : "CNAME"
       },

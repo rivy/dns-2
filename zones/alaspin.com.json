@@ -61,86 +61,6 @@
          "type" : "TXT"
       },
       {
-         ";" : "; MailGun SPF",
-         "class" : "IN",
-         "content" : "\"v=spf1 include:mailgun.org ~all\"",
-         "name" : "mg",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         ";" : "; MailGun tracking (? needed/wanted)",
-         "class" : "IN",
-         "content" : "mailgun.org.",
-         "name" : "email.mg",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         ";" : "; MailGun DKIM",
-         "class" : "IN",
-         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpRWrHlJydjW3sb+VxcnCdhFmjgsEW1YSXSDl9wjLxvsT/qXTmezVAM5pwCJGHJrx8nh42u7pwARfkLJFX+QZvRt0DtpxQ4OWv5zOsyZOQ5qOpNg+Cl7Q5GLBBz1G7fwB/e3zaO9sLuMZvxZVYBjwpN/J2iY4z6Vbz9PtUvfMSpQIDAQAB\"",
-         "name" : "krs._domainkey.mg",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         ";" : "; MailGun SPF",
-         "class" : "IN",
-         "content" : "\"v=spf1 include:mailgun.org ~all\"",
-         "name" : "mg-northernlogic",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         ";" : "; MailGun tracking (? needed/wanted)",
-         "class" : "IN",
-         "content" : "mailgun.org.",
-         "name" : "email.mg-northernlogic",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         ";" : "; MailGun DKIM",
-         "class" : "IN",
-         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZeaPi5QYuHy56V9AKl35eAGRq/lfqm6TbqpgEOPp/nnKxau4i4fHIdTMI3tu2pElR15iIWhW7AduM4cvUUJQM1PEwXiAep0GeaDVgZWZsLsSw3TnaO6ILt2LGsYXHO2Pz07IEY+gRLpuxOISCu/O7C6t384v07oQ/+29EEvt6DwIDAQAB\"",
-         "name" : "mx._domainkey.mg-northernlogic",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         ";" : "; MailGun SPF",
-         "class" : "IN",
-         "content" : "\"v=spf1 include:mailgun.org ~all\"",
-         "name" : "mg-alaspin-com",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         ";" : "; MailGun tracking (? needed/wanted)",
-         "class" : "IN",
-         "content" : "mailgun.org.",
-         "name" : "email.mg-alaspin-com",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         ";" : "; MailGun DKIM",
-         "class" : "IN",
-         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC83TJZH+Rvzru0nC9RpONaNh+ubpuufeyI4p9V6RSIhCq2cbhOBtWCcXtByBwZwBDRJRdd97KrLsO3IxH8YKe2rcS46giZv8XXXgwg3v7b5DO5Rf2epS26z/hpEikkPvHDEw3cX/u+PoSjrnqsx4qhUiTVMrFur1LvXz2pJwlfnwIDAQAB\"",
-         "name" : "krs._domainkey.mg-alaspin_com",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         ";" : "; MailGun SPF",
-         "class" : "IN",
-         "content" : "\"v=spf1 include:mailgun.org ~all\"",
-         "name" : "",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
          ";" : "; MailGun tracking (? needed/wanted)",
          "class" : "IN",
          "content" : "mailgun.org.",
@@ -151,8 +71,16 @@
       {
          ";" : "; MailGun DKIM",
          "class" : "IN",
-         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC83TJZH+Rvzru0nC9RpONaNh+ubpuufeyI4p9V6RSIhCq2cbhOBtWCcXtByBwZwBDRJRdd97KrLsO3IxH8YKe2rcS46giZv8XXXgwg3v7b5DO5Rf2epS26z/hpEikkPvHDEw3cX/u+PoSjrnqsx4qhUiTVMrFur1LvXz2pJwlfnwIDAQAB\"",
-         "name" : "krs._domainkey",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDccQOSt59IfK+dV6xM2V2Cr9tVNWGmbCETIQFOV8cOP6ZhtgOByNC3+ZR1s6akRdQQu5c9n68KLsFzBUcPgqbNAPJYkGp9JA4MmmXKSqD8zCi2B5jWqUAUIEewUp7QAB2re6FJQzdiynttI7z3HTzcVpo+n1k5a8Yh02OS83EKOQIDAQAB\"",
+         "name" : "smtp._domainkey.northernlogic.com.",
+         "ttl" : 3600,
+         "type" : "TXT"
+      },
+      {
+         ";" : "; MailGun DKIM",
+         "class" : "IN",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcj8r9Xfrx2MwyZDx7gaagPvKvVl0bhcvXfhQH4mEegFENQ6fHDENvgYga7Hj6ecyq+rUKCeiITXXXcmGR78KuuSuPS7VXo3oMIVP/RDAjwf4FhEjGtzmds46rep+tAE0lvc3h/mBfeLP35si72KGVMyk8I7JjP3esBB/Uy8QLnQIDAQAB\"",
+         "name" : "smtp._domainkey",
          "ttl" : 3600,
          "type" : "TXT"
       },

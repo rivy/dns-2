@@ -71,16 +71,32 @@
       {
          ";" : "; MailGun DKIM",
          "class" : "IN",
-         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDccQOSt59IfK+dV6xM2V2Cr9tVNWGmbCETIQFOV8cOP6ZhtgOByNC3+ZR1s6akRdQQu5c9n68KLsFzBUcPgqbNAPJYkGp9JA4MmmXKSqD8zCi2B5jWqUAUIEewUp7QAB2re6FJQzdiynttI7z3HTzcVpo+n1k5a8Yh02OS83EKOQIDAQAB\"",
-         "name" : "smtp._domainkey.northernlogic.com.",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcj8r9Xfrx2MwyZDx7gaagPvKvVl0bhcvXfhQH4mEegFENQ6fHDENvgYga7Hj6ecyq+rUKCeiITXXXcmGR78KuuSuPS7VXo3oMIVP/RDAjwf4FhEjGtzmds46rep+tAE0lvc3h/mBfeLP35si72KGVMyk8I7JjP3esBB/Uy8QLnQIDAQAB\"",
+         "name" : "smtp._domainkey",
          "ttl" : 3600,
          "type" : "TXT"
       },
       {
          ";" : "; MailGun DKIM",
          "class" : "IN",
-         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcj8r9Xfrx2MwyZDx7gaagPvKvVl0bhcvXfhQH4mEegFENQ6fHDENvgYga7Hj6ecyq+rUKCeiITXXXcmGR78KuuSuPS7VXo3oMIVP/RDAjwf4FhEjGtzmds46rep+tAE0lvc3h/mBfeLP35si72KGVMyk8I7JjP3esBB/Uy8QLnQIDAQAB\"",
-         "name" : "smtp._domainkey",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbngvS9HhRMh0JOuryk8USxwhLzR4YpEWPg5IjJd8kdDLt58pKxinQlmvdodn9IxhKTqfp+l5HoC6E8QXggHnpEjbyBynms4g5hxYH0DuvOJ6OO3cjmOADj+S9N+lyeULac2+vcWDycQW6zBi+wiP6xxooJUjd5FXTVdKlj7qx5wIDAQAB\"",
+         "name" : "mailo._domainkey.houseofivy.com.",
+         "ttl" : 3600,
+         "type" : "TXT"
+      },
+      {
+         ";" : "; MailGun DKIM",
+         "class" : "IN",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/AnKzO2nUy9OGPQKht5eZ8vvEzTjGuinfET1Qt8pDtn7RUfrNkaTRMrNgwjd66THHQUl0pPVE3c0pDO7aJMHV0f8GEsGC8tzUE0GUL+yZgK6NxYxqgPzCvHOXbAbndsJ+cbS51T664Mg/hUiBIpqZxXP9/Z5nchMJAA601j5/EQIDAQAB\"",
+         "name" : "mx._domainkey.houseofivy.net.",
+         "ttl" : 3600,
+         "type" : "TXT"
+      },
+      {
+         ";" : "; MailGun DKIM",
+         "class" : "IN",
+         "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDccQOSt59IfK+dV6xM2V2Cr9tVNWGmbCETIQFOV8cOP6ZhtgOByNC3+ZR1s6akRdQQu5c9n68KLsFzBUcPgqbNAPJYkGp9JA4MmmXKSqD8zCi2B5jWqUAUIEewUp7QAB2re6FJQzdiynttI7z3HTzcVpo+n1k5a8Yh02OS83EKOQIDAQAB\"",
+         "name" : "smtp._domainkey.northernlogic.com.",
          "ttl" : 3600,
          "type" : "TXT"
       },
@@ -186,30 +202,6 @@
          "type" : "A"
       },
       {
-         ";" : ";; WAP (Linksys WRT610Nv2)",
-         "class" : "IN",
-         "content" : "10.19.1.2",
-         "name" : "a-wrt610n-v2-1",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; WAP (Linksys WRT610Nv2)",
-         "class" : "IN",
-         "content" : "10.19.1.3",
-         "name" : "a-wrt610n-v2-2",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; WAP (Linksys WRT610Nv2)",
-         "class" : "IN",
-         "content" : "10.19.1.4",
-         "name" : "a-wrt610n-v2-3",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
          ";" : ";; switch (Netgear GS748T 48-port gigabit switch)",
          "class" : "IN",
          "content" : "10.19.1.5",
@@ -218,34 +210,10 @@
          "type" : "A"
       },
       {
-         ";" : ";; AP (EnGenius ESR-1221 Nano Router)",
-         "class" : "IN",
-         "content" : "10.19.1.6",
-         "name" : "a-esr-1221",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
          ";" : ";; SMTP server ;: OpenVPN reservations (using TUN) [ NOTE: should have corresponding revIPs ]",
          "class" : "IN",
          "content" : "10.20.1.14",
          "name" : "a-smtp-lan",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; NAS (Western Digital My Book World Edition II)",
-         "class" : "IN",
-         "content" : "10.19.1.20",
-         "name" : "a-wd-mybookwe-ii-1",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; NAS (Western Digital My Book World Edition II)",
-         "class" : "IN",
-         "content" : "10.19.1.21",
-         "name" : "a-wd-mybookwe-ii-2",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -282,66 +250,10 @@
          "type" : "A"
       },
       {
-         ";" : ";; Ubuntu VM",
-         "class" : "IN",
-         "content" : "10.19.1.32",
-         "name" : "a-vm-ubuntu-1",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; Kubuntu VM",
-         "class" : "IN",
-         "content" : "10.19.1.33",
-         "name" : "a-vm-kubuntu-1",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; Linux Mint VM",
-         "class" : "IN",
-         "content" : "10.19.1.34",
-         "name" : "a-vm-linuxmint-1",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
          ";" : ";; ThinQ COM Port IP Server",
          "class" : "IN",
          "content" : "10.19.1.40",
          "name" : "a-qse-100d-1",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; Lantronix xPrintServer",
-         "class" : "IN",
-         "content" : "10.19.1.41",
-         "name" : "a-xprintserver",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; Cyber-rain Irrigation Controller",
-         "class" : "IN",
-         "content" : "10.19.1.42",
-         "name" : "a-cyber-rain",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; EtherRain 7P Irrigation Controller",
-         "class" : "IN",
-         "content" : "10.19.1.43",
-         "name" : "a-ether-rain-1",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; EtherRain 7P Irrigation Controller",
-         "class" : "IN",
-         "content" : "10.19.1.44",
-         "name" : "a-ether-rain-2",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -526,30 +438,6 @@
          "type" : "ALIAS"
       },
       {
-         ";" : ";; (alias) a-vm-ubuntu-1.houseOfIvy.net",
-         "class" : "IN",
-         "content" : "a-vm-ubuntu-1.houseOfIvy.net",
-         "name" : "VB-ubuntu",
-         "ttl" : 3600,
-         "type" : "ALIAS"
-      },
-      {
-         ";" : ";; (ALIAS) a-vm-kubuntu-1.houseOfIvy.net",
-         "class" : "IN",
-         "content" : "a-vm-kubuntu-1.houseOfIvy.net",
-         "name" : "VB-kubuntu",
-         "ttl" : 3600,
-         "type" : "ALIAS"
-      },
-      {
-         ";" : ";; (ALIAS) a-vm-linuxmint-1.houseOfIvy.net",
-         "class" : "IN",
-         "content" : "a-vm-linuxmint-1.houseOfIvy.net",
-         "name" : "VB-linuxmint",
-         "ttl" : 3600,
-         "type" : "ALIAS"
-      },
-      {
          "class" : "IN",
          "content" : "a-default.alaspin.com.",
          "name" : "default",
@@ -686,13 +574,6 @@
          "class" : "IN",
          "content" : "ghs.google.com.",
          "name" : "shared-contacts",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "mail.alaspin.com.",
-         "name" : "webmail",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -887,20 +768,6 @@
       },
       {
          "class" : "IN",
-         "content" : "a-xPrintServer.alaspin.com.",
-         "name" : "xPrintServer",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-cyber-rain.alaspin.com.",
-         "name" : "cyber-rain",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
          "content" : "a-vm-homeseer.alaspin.com.",
          "name" : "vm-homeseer",
          "ttl" : 3600,
@@ -924,62 +791,6 @@
          "class" : "IN",
          "content" : "vm-homeseer.alaspin.com.",
          "name" : "hs",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "VB-ubuntu.alaspin.com.",
-         "name" : "vm-ubuntu",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "VB-kubuntu.alaspin.com.",
-         "name" : "vm-kubuntu",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "VB-linuxmint.alaspin.com.",
-         "name" : "vm-linuxmint",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "firewall.alaspin.com.",
-         "name" : "rivy",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-wrt610n-v2-1.alaspin.com.",
-         "name" : "wap-1",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-wrt610n-v2-2.alaspin.com.",
-         "name" : "wap-2",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-wrt610n-v2-3.alaspin.com.",
-         "name" : "wap-3",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "a-esr-1221.alaspin.com.",
-         "name" : "ap-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -1178,213 +989,6 @@
          "class" : "IN",
          "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
          "name" : "spf.4532CM",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX.L.GOOGLE.COM",
-         "name" : "vb-ubuntu",
-         "prio" : 10,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ALT1.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-ubuntu",
-         "prio" : 20,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ALT2.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-ubuntu",
-         "prio" : 20,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX2.GOOGLEMAIL.COM",
-         "name" : "vb-ubuntu",
-         "prio" : 30,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX3.GOOGLEMAIL.COM",
-         "name" : "vb-ubuntu",
-         "prio" : 30,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "vb-ubuntu.alaspin.com",
-         "name" : "vb-ubuntu",
-         "prio" : 99,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "vb-ubuntu",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.vb-ubuntu",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "google-site-verification=ch43EFcgt8IAnMJenEF6mqBCvL13ZcX26zOefwRByWE",
-         "name" : "vb-ubuntu",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX.L.GOOGLE.COM",
-         "name" : "vb-kubuntu",
-         "prio" : 10,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ALT1.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-kubuntu",
-         "prio" : 20,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ALT2.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-kubuntu",
-         "prio" : 20,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX2.GOOGLEMAIL.COM",
-         "name" : "vb-kubuntu",
-         "prio" : 30,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX3.GOOGLEMAIL.COM",
-         "name" : "vb-kubuntu",
-         "prio" : 30,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "vb-kubuntu.alaspin.com",
-         "name" : "vb-kubuntu",
-         "prio" : 99,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "vb-kubuntu",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.vb-kubuntu",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "google-site-verification=ppzNW7JlVH4Qh_dx-fwKuC-XgHRux8eDbU2p6fEpxr4",
-         "name" : "vb-kubuntu",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX.L.GOOGLE.COM",
-         "name" : "vb-linuxmint",
-         "prio" : 10,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ALT1.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-linuxmint",
-         "prio" : 20,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ALT2.ASPMX.L.GOOGLE.COM",
-         "name" : "vb-linuxmint",
-         "prio" : 20,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX2.GOOGLEMAIL.COM",
-         "name" : "vb-linuxmint",
-         "prio" : 30,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "ASPMX3.GOOGLEMAIL.COM",
-         "name" : "vb-linuxmint",
-         "prio" : 30,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "vb-linuxmint.alaspin.com",
-         "name" : "vb-linuxmint",
-         "prio" : 99,
-         "ttl" : 3600,
-         "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "vb-linuxmint",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.vb-linuxmint",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "google-site-verification=BRRev9BU0j-G9JGcgLCb2p_fLZES01BMAKLmOKdWVWE",
-         "name" : "vb-linuxmint",
          "ttl" : 3600,
          "type" : "TXT"
       },

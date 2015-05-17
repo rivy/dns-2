@@ -1,5 +1,5 @@
 {
-   "name" : "northernlogic.com",
+   "name" : "houseofivy.net",
    "records" : [
       {
          "class" : "IN",
@@ -88,7 +88,7 @@
          ";" : "; MailGun DKIM",
          "class" : "IN",
          "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/AnKzO2nUy9OGPQKht5eZ8vvEzTjGuinfET1Qt8pDtn7RUfrNkaTRMrNgwjd66THHQUl0pPVE3c0pDO7aJMHV0f8GEsGC8tzUE0GUL+yZgK6NxYxqgPzCvHOXbAbndsJ+cbS51T664Mg/hUiBIpqZxXP9/Z5nchMJAA601j5/EQIDAQAB\"",
-         "name" : "mx._domainkey.houseofivy.net.",
+         "name" : "mx._domainkey",
          "ttl" : 3600,
          "type" : "TXT"
       },
@@ -96,7 +96,7 @@
          ";" : "; MailGun DKIM",
          "class" : "IN",
          "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDccQOSt59IfK+dV6xM2V2Cr9tVNWGmbCETIQFOV8cOP6ZhtgOByNC3+ZR1s6akRdQQu5c9n68KLsFzBUcPgqbNAPJYkGp9JA4MmmXKSqD8zCi2B5jWqUAUIEewUp7QAB2re6FJQzdiynttI7z3HTzcVpo+n1k5a8Yh02OS83EKOQIDAQAB\"",
-         "name" : "smtp._domainkey",
+         "name" : "smtp._domainkey.northernlogic.com.",
          "ttl" : 3600,
          "type" : "TXT"
       },
@@ -360,14 +360,14 @@
       },
       {
          "class" : "IN",
-         "content" : "a-smtp.northernlogic.com.",
+         "content" : "a-smtp.houseofivy.net.",
          "name" : "smtp-ovpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "smtp-ovpn.northernlogic.com.",
+         "content" : "smtp-ovpn.houseofivy.net.",
          "name" : "smtp.ovpn",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -388,35 +388,35 @@
       },
       {
          "class" : "IN",
-         "content" : "ubuntu-001.northernlogic.com.",
+         "content" : "ubuntu-001.houseofivy.net.",
          "name" : "ubuntu",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "cs-ubuntu-001.northernlogic.com.",
+         "content" : "cs-ubuntu-001.houseofivy.net.",
          "name" : "ubuntu-001",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "cs-ubuntu-002.northernlogic.com.",
+         "content" : "cs-ubuntu-002.houseofivy.net.",
          "name" : "ubuntu-002",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "cs-ubuntu-001.northernlogic.com.",
+         "content" : "cs-ubuntu-001.houseofivy.net.",
          "name" : "ubuntu-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "cs-ubuntu-002.northernlogic.com.",
+         "content" : "cs-ubuntu-002.houseofivy.net.",
          "name" : "ubuntu-2",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -439,49 +439,49 @@
       },
       {
          "class" : "IN",
-         "content" : "a-default.northernlogic.com.",
+         "content" : "a-default.houseofivy.net.",
          "name" : "default",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-dns-1.northernlogic.com.",
+         "content" : "a-dns-1.houseofivy.net.",
          "name" : "dns-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-dns-2.northernlogic.com.",
+         "content" : "a-dns-2.houseofivy.net.",
          "name" : "dns-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-dns-3.northernlogic.com.",
+         "content" : "a-dns-3.houseofivy.net.",
          "name" : "dns-3",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-dns-4.northernlogic.com.",
+         "content" : "a-dns-4.houseofivy.net.",
          "name" : "dns-4",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-dns-1-lan.northernlogic.com.",
+         "content" : "a-dns-1-lan.houseofivy.net.",
          "name" : "dns-1-lan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-dns-2-lan.northernlogic.com.",
+         "content" : "a-dns-2-lan.houseofivy.net.",
          "name" : "dns-2-lan",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -502,35 +502,35 @@
       },
       {
          "class" : "IN",
-         "content" : "dns-1.northernlogic.com.",
+         "content" : "dns-1.houseofivy.net.",
          "name" : "ns",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "dns-1.northernlogic.com.",
+         "content" : "dns-1.houseofivy.net.",
          "name" : "dns",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-rdns-1.northernlogic.com.",
+         "content" : "a-rdns-1.houseofivy.net.",
          "name" : "rdns-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-rdns-2.northernlogic.com.",
+         "content" : "a-rdns-2.houseofivy.net.",
          "name" : "rdns-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "rdns-1.northernlogic.com.",
+         "content" : "rdns-1.houseofivy.net.",
          "name" : "rdns",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -579,126 +579,126 @@
       },
       {
          "class" : "IN",
-         "content" : "mail.northernlogic.com.",
+         "content" : "mail.houseofivy.net.",
          "name" : "mailhost",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "mail.northernlogic.com.",
+         "content" : "mail.houseofivy.net.",
          "name" : "pop",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "mail.northernlogic.com.",
+         "content" : "mail.houseofivy.net.",
          "name" : "pop3",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "mail.northernlogic.com.",
+         "content" : "mail.houseofivy.net.",
          "name" : "smtp",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-smtp-lan.northernlogic.com.",
+         "content" : "a-smtp-lan.houseofivy.net.",
          "name" : "smtp.lan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-smtp-lan.northernlogic.com.",
+         "content" : "a-smtp-lan.houseofivy.net.",
          "name" : "smtp-lan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.northernlogic.com.",
+         "content" : "grym.houseofivy.net.",
          "name" : "talk",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.northernlogic.com.",
+         "content" : "grym.houseofivy.net.",
          "name" : "ts",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.northernlogic.com.",
+         "content" : "grym.houseofivy.net.",
          "name" : "teamspeak",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.northernlogic.com.",
+         "content" : "grym.houseofivy.net.",
          "name" : "vent",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.northernlogic.com.",
+         "content" : "grym.houseofivy.net.",
          "name" : "ventrilo",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-pipe.northernlogic.com.",
+         "content" : "a-pipe.houseofivy.net.",
          "name" : "pipe",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "pipe.northernlogic.com.",
+         "content" : "pipe.houseofivy.net.",
          "name" : "gateway",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "d-firewall.northernlogic.com.",
+         "content" : "d-firewall.houseofivy.net.",
          "name" : "firewall",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "firewall.northernlogic.com.",
+         "content" : "firewall.houseofivy.net.",
          "name" : "fw",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "d-vpn.northernlogic.com.",
+         "content" : "d-vpn.houseofivy.net.",
          "name" : "vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "d-mobile.northernlogic.com.",
+         "content" : "d-mobile.houseofivy.net.",
          "name" : "mobile",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "default.northernlogic.com.",
+         "content" : "default.houseofivy.net.",
          "name" : "www",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -719,231 +719,231 @@
       },
       {
          "class" : "IN",
-         "content" : "a-BRNF15EE7.northernlogic.com.",
+         "content" : "a-BRNF15EE7.houseofivy.net.",
          "name" : "print",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "print.northernlogic.com.",
+         "content" : "print.houseofivy.net.",
          "name" : "ps",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "print.northernlogic.com.",
+         "content" : "print.houseofivy.net.",
          "name" : "scan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-qse-100d-1.northernlogic.com.",
+         "content" : "a-qse-100d-1.houseofivy.net.",
          "name" : "qse-100d-0",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-qse-100d-1.northernlogic.com.",
+         "content" : "a-qse-100d-1.houseofivy.net.",
          "name" : "qse-100d-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qse-100d-1.northernlogic.com.",
+         "content" : "qse-100d-1.houseofivy.net.",
          "name" : "ip-ports-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qse-100d-1.northernlogic.com.",
+         "content" : "qse-100d-1.houseofivy.net.",
          "name" : "ip-com-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-vm-homeseer.northernlogic.com.",
+         "content" : "a-vm-homeseer.houseofivy.net.",
          "name" : "vm-homeseer",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vm-homeseer.northernlogic.com.",
+         "content" : "vm-homeseer.houseofivy.net.",
          "name" : "vb-homeseer",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vm-homeseer.northernlogic.com.",
+         "content" : "vm-homeseer.houseofivy.net.",
          "name" : "homeseer",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vm-homeseer.northernlogic.com.",
+         "content" : "vm-homeseer.houseofivy.net.",
          "name" : "hs",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-gs748t.northernlogic.com.",
+         "content" : "a-gs748t.houseofivy.net.",
          "name" : "sw-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-qnap-ts-859p-1.northernlogic.com.",
+         "content" : "a-qnap-ts-859p-1.houseofivy.net.",
          "name" : "qnap-ts-859-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-qnap-ts-1679u-rp-1.northernlogic.com.",
+         "content" : "a-qnap-ts-1679u-rp-1.houseofivy.net.",
          "name" : "qnap-ts-1679-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-ts-859-1.northernlogic.com.",
+         "content" : "qnap-ts-859-1.houseofivy.net.",
          "name" : "qnap-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-ts-1679-1.northernlogic.com.",
+         "content" : "qnap-ts-1679-1.houseofivy.net.",
          "name" : "qnap-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-1.northernlogic.com.",
+         "content" : "qnap-1.houseofivy.net.",
          "name" : "qnap",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-1.northernlogic.com.",
+         "content" : "qnap-1.houseofivy.net.",
          "name" : "nas-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-2.northernlogic.com.",
+         "content" : "qnap-2.houseofivy.net.",
          "name" : "nas-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "nas-1.northernlogic.com.",
+         "content" : "nas-1.houseofivy.net.",
          "name" : "nas",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-2.northernlogic.com.",
+         "content" : "qnap-2.houseofivy.net.",
          "name" : "hoard",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-2.northernlogic.com.",
+         "content" : "qnap-2.houseofivy.net.",
          "name" : "media",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "sethra.hamachi.northernlogic.com.",
+         "content" : "sethra.hamachi.houseofivy.net.",
          "name" : "sethra.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.hamachi.northernlogic.com.",
+         "content" : "grym.hamachi.houseofivy.net.",
          "name" : "grym.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "loish.hamachi.northernlogic.com.",
+         "content" : "loish.hamachi.houseofivy.net.",
          "name" : "loish.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "verra.hamachi.northernlogic.com.",
+         "content" : "verra.hamachi.houseofivy.net.",
          "name" : "verra.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "wynd.hamachi.northernlogic.com.",
+         "content" : "wynd.hamachi.houseofivy.net.",
          "name" : "wynd.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vb-ubuntu.hamachi.northernlogic.com.",
+         "content" : "vb-ubuntu.hamachi.houseofivy.net.",
          "name" : "vm-ubuntu.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vb-xp.hamachi.northernlogic.com.",
+         "content" : "vb-xp.hamachi.houseofivy.net.",
          "name" : "vm-xp.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vb-v.hamachi.northernlogic.com.",
+         "content" : "vb-v.hamachi.houseofivy.net.",
          "name" : "vm-v.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vb-v64.hamachi.northernlogic.com.",
+         "content" : "vb-v64.hamachi.houseofivy.net.",
          "name" : "vm-v64.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vb-homeseer.hamachi.northernlogic.com.",
+         "content" : "vb-homeseer.hamachi.houseofivy.net.",
          "name" : "vm-homeseer.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.vpn.northernlogic.com.",
+         "content" : "grym.vpn.houseofivy.net.",
          "name" : "smtp.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -1042,7 +1042,7 @@
       },
       {
          "class" : "IN",
-         "content" : "X.northernlogic.com",
+         "content" : "X.houseofivy.net",
          "name" : "X",
          "prio" : 99,
          "ttl" : 3600,

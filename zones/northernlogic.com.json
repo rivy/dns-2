@@ -404,6 +404,20 @@
          "type" : "CNAME"
       },
       {
+         "class" : "IN",
+         "content" : "0 1 10011 talk.northernlogic.com.",
+         "name" : "_ts3._tcp",
+         "ttl" : 3600,
+         "type" : "SRV"
+      },
+      {
+         "class" : "IN",
+         "content" : "0 1 9987 talk.northernlogic.com.",
+         "name" : "_ts3._udp",
+         "ttl" : 3600,
+         "type" : "SRV"
+      },
+      {
          ";" : ";; ALIAS d-firewall.houseofivy.net.",
          "class" : "IN",
          "content" : "d-firewall.houseofivy.net.",

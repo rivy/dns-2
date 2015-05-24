@@ -9,48 +9,20 @@
          "type" : "A"
       },
       {
-         ";" : "; AzureVM postfix mail server",
          "class" : "IN",
-         "content" : "ubuntu-002.cloudapp.net",
+         "content" : "a-mail.houseofivy.net",
          "name" : "",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
       },
       {
+         ";" : ";; alias:ubuntu-002.cloudapp.net. ;; AzureVM mail server (postfix)",
          "class" : "IN",
-         "content" : "gv-NJCGDPMVIHFIVXXAFAQLEOE6X2F5SXOCYCKBAL2IE2JJFJU7L57Q.domainverify.googlehosted.com.",
-         "name" : "3BA6ISJYPYB6",
+         "content" : "ubuntu-002.cloudapp.net.",
+         "name" : "a-smtp",
          "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "gv-ATFZPT2YFSMF2NZSOJTLUOX4QZFDRJ3GRWUSMIDA3SVQQBD5I5FQ.domainverify.googlehosted.com.",
-         "name" : "N3E52WGGSGJC",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "gv-FHLRH6CLAMAQWGQ76UU6SPKJRNIQ7ZMHBOGS6ZI3D623NMFU3YOQ.domainverify.googlehosted.com.",
-         "name" : "HSCCGUWJPD7U",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "gv-CRSPRM4NR4ZN76.dv.googlehosted.com.",
-         "name" : "7GS6FNYVWZFU",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "sendgrid.net.",
-         "name" : "sendgrid",
-         "ttl" : 3600,
-         "type" : "CNAME"
+         "type" : "ALIAS"
       },
       {
          ";" : "; MailGun SPF",
@@ -101,17 +73,52 @@
          "type" : "TXT"
       },
       {
-         ";" : ";; (alias) firewall-houseofivy.mooo.com.",
          "class" : "IN",
-         "content" : "firewall-houseofivy.mooo.com.",
+         "content" : "sendgrid.net.",
+         "name" : "sendgrid",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gv-NJCGDPMVIHFIVXXAFAQLEOE6X2F5SXOCYCKBAL2IE2JJFJU7L57Q.domainverify.googlehosted.com.",
+         "name" : "3BA6ISJYPYB6",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gv-ATFZPT2YFSMF2NZSOJTLUOX4QZFDRJ3GRWUSMIDA3SVQQBD5I5FQ.domainverify.googlehosted.com.",
+         "name" : "N3E52WGGSGJC",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gv-FHLRH6CLAMAQWGQ76UU6SPKJRNIQ7ZMHBOGS6ZI3D623NMFU3YOQ.domainverify.googlehosted.com.",
+         "name" : "HSCCGUWJPD7U",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gv-CRSPRM4NR4ZN76.dv.googlehosted.com.",
+         "name" : "7GS6FNYVWZFU",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         ";" : ";; (alias) d-firewall.houseofivy.net.",
+         "class" : "IN",
+         "content" : "d-firewall.houseofivy.net.",
          "name" : "",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
-         ";" : ";; (alias) firewall-houseofivy.mooo.com.",
+         ";" : ";; (alias) d-firewall.houseofivy.net.",
          "class" : "IN",
-         "content" : "firewall-houseofivy.mooo.com.",
+         "content" : "d-firewall.houseofivy.net.",
          "name" : "a-default",
          "ttl" : 3600,
          "type" : "ALIAS"
@@ -170,14 +177,6 @@
          "type" : "A"
       },
       {
-         ";" : ";: OpenVPN reservation (using TUN)",
-         "class" : "IN",
-         "content" : "10.20.1.14",
-         "name" : "a-dns-2-lan",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
          ";" : ";; Google public nameserver [https://developers.google.com/speed/public-dns/?csw=1 @@ https://archive.is/6KXKU]",
          "class" : "IN",
          "content" : "8.8.8.8",
@@ -194,7 +193,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; router",
+         ";" : ";; router/WAN gateway",
          "class" : "IN",
          "content" : "10.19.1.1",
          "name" : "a-pipe",
@@ -210,10 +209,34 @@
          "type" : "A"
       },
       {
-         ";" : ";; SMTP server ;: OpenVPN reservations (using TUN) [ NOTE: should have corresponding revIPs ]",
+         ";" : ";; WAP (Unifi AP AC)",
          "class" : "IN",
-         "content" : "10.20.1.14",
-         "name" : "a-smtp-lan",
+         "content" : "10.19.1.6",
+         "name" : "a-unifi-ap-ac-1",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; WAP (Unifi AP AC)",
+         "class" : "IN",
+         "content" : "10.19.1.7",
+         "name" : "a-unifi-ap-ac-2",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; WAP (Unifi AP AC)",
+         "class" : "IN",
+         "content" : "10.19.1.8",
+         "name" : "a-unifi-ap-ac-3",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; APC Smart-UPS 1000",
+         "class" : "IN",
+         "content" : "10.19.1.14",
+         "name" : "a-apc-1",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -234,18 +257,34 @@
          "type" : "A"
       },
       {
-         ";" : ";; Brother MFC-9840CDW Printer",
+         ";" : ";; Brother MFC-L8850CDW Printer",
          "class" : "IN",
          "content" : "10.19.1.30",
-         "name" : "a-BRNF15EE7",
+         "name" : "a-BRN30055C470073",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; Brother QL-729NW Printer",
+         "class" : "IN",
+         "content" : "10.19.1.31",
+         "name" : "a-BRW008092CD17D9",
          "ttl" : 3600,
          "type" : "A"
       },
       {
          ";" : ";; HomeSeer VM",
          "class" : "IN",
-         "content" : "10.19.1.31",
+         "content" : "10.19.1.34",
          "name" : "a-vm-homeseer",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; ubuntu VM (on QNAP)",
+         "class" : "IN",
+         "content" : "10.10.1.35",
+         "name" : "a-ubuntu-003",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -258,18 +297,10 @@
          "type" : "A"
       },
       {
-         ";" : ";; APC Smart-UPS 1000",
+         ";" : ";; Automation controller (Universal Devices ISY994)  ",
          "class" : "IN",
-         "content" : "10.19.1.50",
-         "name" : "a-apc-1",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; IP camera",
-         "class" : "IN",
-         "content" : "10.19.1.60",
-         "name" : "a-camera-1",
+         "content" : "10.19.1.49",
+         "name" : "a-isy-1",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -277,7 +308,7 @@
          ";" : ";; IP camera",
          "class" : "IN",
          "content" : "10.19.1.61",
-         "name" : "a-isy-1",
+         "name" : "a-camera-1",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -360,20 +391,6 @@
       },
       {
          "class" : "IN",
-         "content" : "a-smtp.houseofivy.net.",
-         "name" : "smtp-ovpn",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "smtp-ovpn.houseofivy.net.",
-         "name" : "smtp.ovpn",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
          "content" : "ubuntu-001.cloudapp.net.",
          "name" : "cs-ubuntu-001",
          "ttl" : 3600,
@@ -387,52 +404,17 @@
          "type" : "CNAME"
       },
       {
+         ";" : ";; ALIAS d-firewall.houseofivy.net.",
          "class" : "IN",
-         "content" : "ubuntu-001.houseofivy.net.",
-         "name" : "ubuntu",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "cs-ubuntu-001.houseofivy.net.",
-         "name" : "ubuntu-001",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "cs-ubuntu-002.houseofivy.net.",
-         "name" : "ubuntu-002",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "cs-ubuntu-001.houseofivy.net.",
-         "name" : "ubuntu-1",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "cs-ubuntu-002.houseofivy.net.",
-         "name" : "ubuntu-2",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         ";" : ";; ALIAS firewall-houseofivy.mooo.com",
-         "class" : "IN",
-         "content" : "firewall-houseofivy.mooo.com",
+         "content" : "d-firewall.houseofivy.net.",
          "name" : "4532CM",
          "ttl" : 3600,
          "type" : "ALIAS"
       },
       {
-         ";" : ";; ALIAS: a-sb-2.wotw.net",
+         ";" : ";; ALIAS: a-sb-2.wotw.net.",
          "class" : "IN",
-         "content" : "a-sb-2.wotw.net",
+         "content" : "a-sb-2.wotw.net.",
          "name" : "TAG",
          "ttl" : 3600,
          "type" : "ALIAS"
@@ -474,6 +456,13 @@
       },
       {
          "class" : "IN",
+         "content" : "dns-1.houseofivy.net.",
+         "name" : "dns",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "a-dns-1-lan.houseofivy.net.",
          "name" : "dns-1-lan",
          "ttl" : 3600,
@@ -488,29 +477,8 @@
       },
       {
          "class" : "IN",
-         "content" : "grym.wotw.net.",
-         "name" : "grym",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "wynd.wotw.net.",
-         "name" : "wynd",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "dns-1.houseofivy.net.",
-         "name" : "ns",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "dns-1.houseofivy.net.",
-         "name" : "dns",
+         "content" : "dns-1-lan.houseofivy.net.",
+         "name" : "dns-lan",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -532,6 +500,27 @@
          "class" : "IN",
          "content" : "rdns-1.houseofivy.net.",
          "name" : "rdns",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "grym.wotw.net.",
+         "name" : "grym",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "wynd.wotw.net.",
+         "name" : "wynd",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "rdns-1.houseofivy.net.",
+         "name" : "ns",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -607,15 +596,15 @@
       },
       {
          "class" : "IN",
-         "content" : "a-smtp-lan.houseofivy.net.",
-         "name" : "smtp.lan",
+         "content" : "a-ubuntu-003.houseofivy.net.",
+         "name" : "smtp.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-smtp-lan.houseofivy.net.",
-         "name" : "smtp-lan",
+         "content" : "smtp.4532CM.houseofivy.net.",
+         "name" : "smtp-4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -719,7 +708,7 @@
       },
       {
          "class" : "IN",
-         "content" : "a-BRNF15EE7.houseofivy.net.",
+         "content" : "a-BRN30055C470073.houseofivy.net.",
          "name" : "print",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -796,6 +785,27 @@
       },
       {
          "class" : "IN",
+         "content" : "a-unifi-ap-ac-1.houseofivy.net.",
+         "name" : "wap-1",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-unifi-ap-ac-2.houseofivy.net.",
+         "name" : "wap-2",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-unifi-ap-ac-3.houseofivy.net.",
+         "name" : "wap-3",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "a-gs748t.houseofivy.net.",
          "name" : "sw-1",
          "ttl" : 3600,
@@ -831,7 +841,7 @@
       },
       {
          "class" : "IN",
-         "content" : "qnap-1.houseofivy.net.",
+         "content" : "qnap-2.houseofivy.net.",
          "name" : "qnap",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -852,7 +862,7 @@
       },
       {
          "class" : "IN",
-         "content" : "nas-1.houseofivy.net.",
+         "content" : "nas-2.houseofivy.net.",
          "name" : "nas",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -868,6 +878,55 @@
          "class" : "IN",
          "content" : "qnap-2.houseofivy.net.",
          "name" : "media",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "ubuntu-002.houseofivy.net.",
+         "name" : "ubuntu",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "cs-ubuntu-001.houseofivy.net.",
+         "name" : "ubuntu-001",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "cs-ubuntu-002.houseofivy.net.",
+         "name" : "ubuntu-002",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-ubuntu-003.houseofivy.net.",
+         "name" : "ubuntu-003",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "ubuntu-001.houseofivy.net.",
+         "name" : "ubuntu-1",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "ubuntu-002.houseofivy.net.",
+         "name" : "ubuntu-2",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "ubuntu-003.houseofivy.net.",
+         "name" : "ubuntu-3",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -938,13 +997,6 @@
          "class" : "IN",
          "content" : "vb-homeseer.hamachi.houseofivy.net.",
          "name" : "vm-homeseer.vpn",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "grym.vpn.houseofivy.net.",
-         "name" : "smtp.vpn",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -1070,9 +1122,9 @@
          "type" : "CNAME"
       },
       {
-         ";" : ";; ALIAS:a-sb-2.wotw.net",
+         ";" : ";; ALIAS:a-sb-2.wotw.net.",
          "class" : "IN",
-         "content" : "a-sb-2.wotw.net",
+         "content" : "a-sb-2.wotw.net.",
          "name" : "xx",
          "ttl" : 3600,
          "type" : "ALIAS"

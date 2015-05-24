@@ -10,7 +10,7 @@
       },
       {
          "class" : "IN",
-         "content" : "a-mail.northernlogic.com",
+         "content" : "a-smtp.northernlogic.com",
          "name" : "",
          "prio" : 10,
          "ttl" : 3600,

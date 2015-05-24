@@ -10,7 +10,7 @@
       },
       {
          "class" : "IN",
-         "content" : "a-mail.houseofivy.net",
+         "content" : "a-smtp.houseofivy.net",
          "name" : "",
          "prio" : 10,
          "ttl" : 3600,

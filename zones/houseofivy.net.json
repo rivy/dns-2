@@ -1090,25 +1090,11 @@
       },
       {
          "class" : "IN",
-         "content" : "a-smtp.wotw.net",
+         "content" : "a-smtp.houseofivy.net",
          "name" : "4532CM",
          "prio" : 10,
          "ttl" : 3600,
          "type" : "MX"
-      },
-      {
-         "class" : "IN",
-         "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "4532CM",
-         "ttl" : 3600,
-         "type" : "TXT"
-      },
-      {
-         "class" : "IN",
-         "content" : "\"v=spf1 mx a:a-smtp.wotw.net a:grym.wotw.net a:wynd.wotw.net include:aspmx.googlemail.com include:_spf.google.com ~all\"",
-         "name" : "spf.4532CM",
-         "ttl" : 3600,
-         "type" : "TXT"
       },
       {
          "class" : "IN",

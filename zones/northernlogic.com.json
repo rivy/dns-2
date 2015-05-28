@@ -662,6 +662,13 @@
       },
       {
          "class" : "IN",
+         "content" : "smtp.4532CM.northernlogic.com.",
+         "name" : "smtp-lan",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "grym.northernlogic.com.",
          "name" : "talk",
          "ttl" : 3600,
@@ -692,6 +699,13 @@
          "class" : "IN",
          "content" : "grym.northernlogic.com.",
          "name" : "ventrilo",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "grym.northernlogic.com.",
+         "name" : "voice",
          "ttl" : 3600,
          "type" : "CNAME"
       },

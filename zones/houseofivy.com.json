@@ -662,6 +662,13 @@
       },
       {
          "class" : "IN",
+         "content" : "smtp.4532CM.houseofivy.com.",
+         "name" : "smtp-lan",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "grym.houseofivy.com.",
          "name" : "talk",
          "ttl" : 3600,
@@ -692,6 +699,13 @@
          "class" : "IN",
          "content" : "grym.houseofivy.com.",
          "name" : "ventrilo",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "grym.houseofivy.com.",
+         "name" : "voice",
          "ttl" : 3600,
          "type" : "CNAME"
       },

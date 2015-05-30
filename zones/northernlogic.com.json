@@ -290,6 +290,14 @@
          "type" : "A"
       },
       {
+         ";" : ";; (mac:90:7A:F1:EE:0C:69) WallyHome server (my.wallyhome.com)",
+         "class" : "IN",
+         "content" : "10.19.1.37",
+         "name" : "a-wally.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
          ";" : ";; (mac:00:0b:28:00:0d:06) ThinQ COM Port IP Server",
          "class" : "IN",
          "content" : "10.19.1.40",
@@ -306,9 +314,17 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:E8:AB:FA:04:F9:C5) IP camera",
+         ";" : ";; (mac:D0:73:D5:03:94:70) LIFX bulb",
          "class" : "IN",
          "content" : "10.19.5.1",
+         "name" : "a-light-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:E8:AB:FA:04:F9:C5) IP camera",
+         "class" : "IN",
+         "content" : "10.19.7.1",
          "name" : "a-camera-1.4532CM",
          "ttl" : 3600,
          "type" : "A"
@@ -316,7 +332,7 @@
       {
          ";" : ";; (mac:00:62:6E:48:2E:6F) IP camera",
          "class" : "IN",
-         "content" : "10.19.5.2",
+         "content" : "10.19.7.2",
          "name" : "a-camera-2.4532CM",
          "ttl" : 3600,
          "type" : "A"
@@ -324,7 +340,7 @@
       {
          ";" : ";; (mac:00:0D:C5:DA:4D:82) IP camera",
          "class" : "IN",
-         "content" : "10.19.5.3",
+         "content" : "10.19.7.3",
          "name" : "a-camera-3.4532CM",
          "ttl" : 3600,
          "type" : "A"

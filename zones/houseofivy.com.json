@@ -250,6 +250,22 @@
          "type" : "A"
       },
       {
+         ";" : ";; (mac:00:08:9B:D1:B7:E2) QNAP TS-1679 PRO ethernet #3 (id:admin, pw:SAv2; for VMs)",
+         "class" : "IN",
+         "content" : "10.19.1.28",
+         "name" : "a-qnap-ts-1679u-rp-1-e3.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:08:9B:D1:B7:E3) QNAP TS-1679 PRO ethernet #4 (id:admin, pw:SAv2)",
+         "class" : "IN",
+         "content" : "10.19.1.29",
+         "name" : "a-qnap-ts-1679u-rp-1-e4.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
          ";" : ";; (mac:30:05:5C:47:00:73) Brother MFC-L8850CDW Printer",
          "class" : "IN",
          "content" : "10.19.1.30",
@@ -306,6 +322,14 @@
          "type" : "A"
       },
       {
+         ";" : ";; (mac:00:1C:DF:CB:E0:5E) Belkin 5-Port Network USB Hub (FTDI FT245R USB FIFO; \"BK-NUHCBE05E\")",
+         "class" : "IN",
+         "content" : "10.19.1.41",
+         "name" : "a-network-usb-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
          ";" : ";; (mac:00:21:B9:01:08:31) Automation controller (Universal Devices ISY994)",
          "class" : "IN",
          "content" : "10.19.1.49",
@@ -314,9 +338,81 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:D0:73:D5:03:94:70) LIFX bulb",
+         ";" : ";; (mac:a0:02:dc:a0:1b:0e) Amazon FireTV (Exercise Room)",
+         "class" : "IN",
+         "content" : "10.19.1.50",
+         "name" : "a-firetv-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:24:a4:3c:33:ac:f7) mPower Pro (8-port/switch)",
          "class" : "IN",
          "content" : "10.19.5.1",
+         "name" : "a-mpower-8-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:) mPower (3-port/switch)",
+         "class" : "IN",
+         "content" : "10.19.5.2",
+         "name" : "a-mpower-3-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:) mFi Power Mini (1-port/switch)",
+         "class" : "IN",
+         "content" : "10.19.5.3",
+         "name" : "a-mfi-power-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:) mFi Power Mini (1-port/switch)",
+         "class" : "IN",
+         "content" : "10.19.5.4",
+         "name" : "a-mfi-power-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:ec:1a:59:f7:23:61) WeMo Insight Switch (power sensing switch)",
+         "class" : "IN",
+         "content" : "10.19.5.51",
+         "name" : "a-wemo-is-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:ec:1a:59:f7:f5:49) WeMo Insight Switch (power sensing switch)",
+         "class" : "IN",
+         "content" : "10.19.5.52",
+         "name" : "a-wemo-is-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:ec:1a:59:f7:f9:1d) WeMo Insight Switch (power sensing switch)",
+         "class" : "IN",
+         "content" : "10.19.5.53",
+         "name" : "a-wemo-is-3.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:ec:1a:59:f8:3e:3d) WeMo Insight Switch (power sensing switch)",
+         "class" : "IN",
+         "content" : "10.19.5.54",
+         "name" : "a-wemo-is-4.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:D0:73:D5:03:94:70) LIFX bulb",
+         "class" : "IN",
+         "content" : "10.19.7.1",
          "name" : "a-light-1.4532CM",
          "ttl" : 3600,
          "type" : "A"
@@ -324,7 +420,7 @@
       {
          ";" : ";; (mac:E8:AB:FA:04:F9:C5) IP camera",
          "class" : "IN",
-         "content" : "10.19.7.1",
+         "content" : "10.19.9.1",
          "name" : "a-camera-1.4532CM",
          "ttl" : 3600,
          "type" : "A"
@@ -332,7 +428,7 @@
       {
          ";" : ";; (mac:00:62:6E:48:2E:6F) IP camera",
          "class" : "IN",
-         "content" : "10.19.7.2",
+         "content" : "10.19.9.2",
          "name" : "a-camera-2.4532CM",
          "ttl" : 3600,
          "type" : "A"
@@ -340,8 +436,104 @@
       {
          ";" : ";; (mac:00:0D:C5:DA:4D:82) IP camera",
          "class" : "IN",
-         "content" : "10.19.7.3",
+         "content" : "10.19.9.3",
          "name" : "a-camera-3.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:18:b4:30:20:f1:35) Nest Protect smoke alarm (Back Staircase)",
+         "class" : "IN",
+         "content" : "10.19.10.1",
+         "name" : "a-nest-smoke-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:18:b4:30:20:d3:9d) Nest Protect smoke alarm (Entry)",
+         "class" : "IN",
+         "content" : "10.19.10.2",
+         "name" : "a-nest-smoke-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:70:ee:50:05:f8:08) Netatmo",
+         "class" : "IN",
+         "content" : "10.19.10.51",
+         "name" : "a-netatmo.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:bc:30:7d:d6:cc:5a) August wifi adapter for deadbolt lock (front)",
+         "class" : "IN",
+         "content" : "10.19.10.61",
+         "name" : "a-lock-front.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:24:e4:03:a9:61) Withings WiFi Body Scale",
+         "class" : "IN",
+         "content" : "10.19.10.71",
+         "name" : "a-withings-scale.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:04:20:ED:FF:2C) Logitech Harmony Hub",
+         "class" : "IN",
+         "content" : "10.19.10.81",
+         "name" : "a-harmonyhub.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:09:B0:49:B0:0C) Onkyo AVR",
+         "class" : "IN",
+         "content" : "10.19.10.91",
+         "name" : "a-onkyo.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:18:DD:01:9B:64) Silicon Dust HDHR #1 (HDHR-1019B645)",
+         "class" : "IN",
+         "content" : "10.19.10.101",
+         "name" : "a-HDHR-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:18:DD:31:01:BD) Silicon Dust HDHR #2 (HDHR-13101BDE)",
+         "class" : "IN",
+         "content" : "10.19.10.102",
+         "name" : "a-HDHR-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:18:DD:01:05:D8) Silicon Dust HDHR #3 (HDHR-10105D88)",
+         "class" : "IN",
+         "content" : "10.19.10.103",
+         "name" : "a-HDHR-3.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:04:A3:DA:3F:E1) ? Kumo Wireless Tag server #1?",
+         "class" : "IN",
+         "content" : "10.19.13.1",
+         "name" : "a-unknown-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:00:04:A3:DA:E8:9F) ? Kumo Wireless Tag server #2?",
+         "class" : "IN",
+         "content" : "10.19.13.2",
+         "name" : "a-unknown-2.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },

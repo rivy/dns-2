@@ -282,7 +282,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:08:00:27:67:7f:9e) HomeSeer VM",
+         ";" : ";; (mac:08:00:27:EF:C3:95) HomeSeer VM",
          "class" : "IN",
          "content" : "10.19.1.34",
          "name" : "a-homeseer.4532CM",
@@ -346,7 +346,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:24:a4:3c:33:ac:f7) mPower Pro (8-port/switch)",
+         ";" : ";; (mac:24:a4:3c:33:ac:f7) mPower Pro (8-port)",
          "class" : "IN",
          "content" : "10.19.5.1",
          "name" : "a-mpower-8-1.4532CM",
@@ -354,7 +354,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:) mPower (3-port/switch)",
+         ";" : ";; (mac:dc:9f:db:48:a8:44) mPower (3-port)",
          "class" : "IN",
          "content" : "10.19.5.2",
          "name" : "a-mpower-3-1.4532CM",
@@ -362,18 +362,18 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:) mFi Power Mini (1-port/switch)",
+         ";" : ";; (mac:24:a4:3c:8a:0f:53) mFi Power Mini (1-port)",
          "class" : "IN",
          "content" : "10.19.5.3",
-         "name" : "a-mfi-power-1.4532CM",
+         "name" : "a-mpower-1-1.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
       {
-         ";" : ";; (mac:) mFi Power Mini (1-port/switch)",
+         ";" : ";; (mac:24:a4:3c:8a:0f:88) mFi Power Mini (1-port)",
          "class" : "IN",
          "content" : "10.19.5.4",
-         "name" : "a-mfi-power-2.4532CM",
+         "name" : "a-mpower-1-2.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -418,6 +418,14 @@
          "type" : "A"
       },
       {
+         ";" : ";; (mac:) LIFX bulb",
+         "class" : "IN",
+         "content" : "10.19.7.2",
+         "name" : "a-light-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
          ";" : ";; (mac:E8:AB:FA:04:F9:C5) IP camera",
          "class" : "IN",
          "content" : "10.19.9.1",
@@ -454,6 +462,14 @@
          "class" : "IN",
          "content" : "10.19.10.2",
          "name" : "a-nest-smoke-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:C0:4A:00:26:5F:4E) Rain Machine irrigation (12-zone)",
+         "class" : "IN",
+         "content" : "10.19.10.41",
+         "name" : "a-rainmachine.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },

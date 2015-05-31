@@ -885,14 +885,14 @@
       {
          "class" : "IN",
          "content" : "grym.northernlogic.com.",
-         "name" : "ts",
+         "name" : "teamspeak",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
          "content" : "grym.northernlogic.com.",
-         "name" : "teamspeak",
+         "name" : "ts",
          "ttl" : 3600,
          "type" : "CNAME"
       },

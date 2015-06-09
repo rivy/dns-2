@@ -17,7 +17,7 @@
          "type" : "MX"
       },
       {
-         ";" : ";; alias:ubuntu-002.cloudapp.net. ;; AzureVM mail server (postfix)",
+         ";" : ";; alias:ubuntu-002.cloudapp.net. ## AzureVM mail server (postfix)",
          "class" : "IN",
          "content" : "ubuntu-002.cloudapp.net.",
          "name" : "a-smtp",
@@ -41,7 +41,7 @@
          "type" : "CNAME"
       },
       {
-         ";" : "; MailGun DKIM",
+         ";" : "; MailGun DKIM (alaspin.com)",
          "class" : "IN",
          "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcj8r9Xfrx2MwyZDx7gaagPvKvVl0bhcvXfhQH4mEegFENQ6fHDENvgYga7Hj6ecyq+rUKCeiITXXXcmGR78KuuSuPS7VXo3oMIVP/RDAjwf4FhEjGtzmds46rep+tAE0lvc3h/mBfeLP35si72KGVMyk8I7JjP3esBB/Uy8QLnQIDAQAB\"",
          "name" : "smtp._domainkey",
@@ -49,7 +49,7 @@
          "type" : "TXT"
       },
       {
-         ";" : "; MailGun DKIM",
+         ";" : "; MailGun DKIM (houseofivy.com)",
          "class" : "IN",
          "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbngvS9HhRMh0JOuryk8USxwhLzR4YpEWPg5IjJd8kdDLt58pKxinQlmvdodn9IxhKTqfp+l5HoC6E8QXggHnpEjbyBynms4g5hxYH0DuvOJ6OO3cjmOADj+S9N+lyeULac2+vcWDycQW6zBi+wiP6xxooJUjd5FXTVdKlj7qx5wIDAQAB\"",
          "name" : "mailo._domainkey.houseofivy.com.",
@@ -57,7 +57,7 @@
          "type" : "TXT"
       },
       {
-         ";" : "; MailGun DKIM",
+         ";" : "; MailGun DKIM (houseofivy.net)",
          "class" : "IN",
          "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/AnKzO2nUy9OGPQKht5eZ8vvEzTjGuinfET1Qt8pDtn7RUfrNkaTRMrNgwjd66THHQUl0pPVE3c0pDO7aJMHV0f8GEsGC8tzUE0GUL+yZgK6NxYxqgPzCvHOXbAbndsJ+cbS51T664Mg/hUiBIpqZxXP9/Z5nchMJAA601j5/EQIDAQAB\"",
          "name" : "mx._domainkey.houseofivy.net.",
@@ -65,7 +65,7 @@
          "type" : "TXT"
       },
       {
-         ";" : "; MailGun DKIM",
+         ";" : "; MailGun DKIM (northernlogic.com)",
          "class" : "IN",
          "content" : "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDccQOSt59IfK+dV6xM2V2Cr9tVNWGmbCETIQFOV8cOP6ZhtgOByNC3+ZR1s6akRdQQu5c9n68KLsFzBUcPgqbNAPJYkGp9JA4MmmXKSqD8zCi2B5jWqUAUIEewUp7QAB2re6FJQzdiynttI7z3HTzcVpo+n1k5a8Yh02OS83EKOQIDAQAB\"",
          "name" : "smtp._domainkey.northernlogic.com.",
@@ -186,10 +186,42 @@
          "type" : "A"
       },
       {
-         ";" : ";; router/WAN gateway",
+         ";" : ";; OpenDNS public nameserver [https://www.opendns.com/home-internet-security/opendns-ip-addresses @@ https://archive.is/VndoP]",
+         "class" : "IN",
+         "content" : "208.67.222.222",
+         "name" : "a-rdns-3",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; OpenDNS public nameserver [https://www.opendns.com/home-internet-security/opendns-ip-addresses @@ https://archive.is/VndoP]",
+         "class" : "IN",
+         "content" : "208.67.220.220",
+         "name" : "a-rdns-4",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; router/WAN gateway; Buffalo WZR-HP-G300NH with DD-WRT firmware (DD-WRT v24SP2-EU-US (08/19/10) std)",
          "class" : "IN",
          "content" : "10.19.1.1",
-         "name" : "a-pipe.4532CM",
+         "name" : "a-buffalo-wzr-hp-g300nh.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:04:18:D6:06:21:13) Ubiquity EdgeRouter X [ER-X]",
+         "class" : "IN",
+         "content" : "10.19.1.2",
+         "name" : "a-ubiquity-er-x.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac: ) Ubiquity 48-port gigabit Edge Switch (id: admin, pw:SAv2.11)",
+         "class" : "IN",
+         "content" : "10.19.1.4",
+         "name" : "a-ubiquity-sw.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -202,23 +234,15 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:04:18:D6:10:5B:7D) WAP (Unifi AP AC)",
+         ";" : ";; (mac:04:18:D6:07:C0:00) Ubiquity ToughSwitch POE Pro (id: admin, pw:SAv2.11) [TOUGHSwitch PoE PRO]",
          "class" : "IN",
          "content" : "10.19.1.6",
-         "name" : "a-unifi-ap-ac-1.4532CM",
+         "name" : "a-ubiquity-ts-poe-pro-1.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
       {
-         ";" : ";; (mac:24:A4:3C:50:77:E5) WAP (Unifi AP AC)",
-         "class" : "IN",
-         "content" : "10.19.1.7",
-         "name" : "a-unifi-ap-ac-2.4532CM",
-         "ttl" : 3600,
-         "type" : "A"
-      },
-      {
-         ";" : ";; (mac:24:A4:3C:50:77:F3) WAP (Unifi AP AC)",
+         ";" : ";; (mac:24:A4:3C:50:77:F3) WAP (Ubiquity Unifi AP AC)",
          "class" : "IN",
          "content" : "10.19.1.8",
          "name" : "a-unifi-ap-ac-3.4532CM",
@@ -226,10 +250,18 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:00:C0:B7:97:67:EB) APC Smart-UPS 1000 (id:apc, pw:SAv2)",
+         ";" : ";; (mac:24:A4:3C:50:77:E5) WAP (Ubiquity Unifi AP AC)",
          "class" : "IN",
-         "content" : "10.19.1.14",
-         "name" : "a-apc-1.4532CM",
+         "content" : "10.19.1.9",
+         "name" : "a-unifi-ap-ac-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:04:18:D6:10:5B:7D) WAP (Ubiquity Unifi AP AC)",
+         "class" : "IN",
+         "content" : "10.19.1.10",
+         "name" : "a-unifi-ap-ac-1.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -338,15 +370,23 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:a0:02:dc:a0:1b:0e) Amazon FireTV (Exercise Room)",
+         ";" : ";; (mac:10:AE:60:F6:FC:C8) Amazon FireTV (Exercise Room; wifi-mac:a0:02:dc:a0:1b:0e)",
          "class" : "IN",
-         "content" : "10.19.1.50",
+         "content" : "10.19.1.51",
          "name" : "a-firetv-1.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
       {
-         ";" : ";; (mac:24:a4:3c:33:ac:f7) mPower Pro (8-port)",
+         ";" : ";; (mac:00:BB:3A:4A:EC:7E) Amazon FireTV (Family Room; wifi-mac:)",
+         "class" : "IN",
+         "content" : "10.19.1.52",
+         "name" : "a-firetv-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:24:a4:3c:33:ac:f7) mPower Pro (8-port) [P8U]",
          "class" : "IN",
          "content" : "10.19.5.1",
          "name" : "a-mpower-8-1.4532CM",
@@ -354,7 +394,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:dc:9f:db:48:a8:44) mPower (3-port)",
+         ";" : ";; (mac:dc:9f:db:48:a8:44) mPower (3-port) [P3U]",
          "class" : "IN",
          "content" : "10.19.5.2",
          "name" : "a-mpower-3-1.4532CM",
@@ -362,7 +402,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:24:a4:3c:8a:0f:53) mFi Power Mini (1-port)",
+         ";" : ";; (mac:24:a4:3c:8a:0f:53) mFi Power Mini (1-port) [P1U]",
          "class" : "IN",
          "content" : "10.19.5.3",
          "name" : "a-mpower-1-1.4532CM",
@@ -370,10 +410,26 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:24:a4:3c:8a:0f:88) mFi Power Mini (1-port)",
+         ";" : ";; (mac:24:a4:3c:8a:0f:88) mFi Power Mini (1-port) [P1U]",
          "class" : "IN",
          "content" : "10.19.5.4",
          "name" : "a-mpower-1-2.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:24:a4:3c:8a:0f:59) mFi Power Mini (1-port) [P1U]",
+         "class" : "IN",
+         "content" : "10.19.5.5",
+         "name" : "a-mpower-1-3.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:24:a4:3c:8a:0f:6a) mFi Power Mini (1-port) [P1U]",
+         "class" : "IN",
+         "content" : "10.19.5.6",
+         "name" : "a-mpower-1-4.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -410,7 +466,15 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:D0:73:D5:03:94:70) LIFX bulb",
+         ";" : ";; (mac:00:C0:B7:97:67:EB) APC Smart-UPS 1000 (id:apc, pw:SAv2)",
+         "class" : "IN",
+         "content" : "10.19.6.1",
+         "name" : "a-apc-1.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:D0:73:D5:03:94:70) LIFX bulb [Master - Nightstand-S]",
          "class" : "IN",
          "content" : "10.19.7.1",
          "name" : "a-light-1.4532CM",
@@ -418,7 +482,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:) LIFX bulb",
+         ";" : ";; (mac:D0:73:D5:03:59:29) LIFX bulb [Master - Nightstand-N]",
          "class" : "IN",
          "content" : "10.19.7.2",
          "name" : "a-light-2.4532CM",
@@ -554,6 +618,14 @@
          "type" : "A"
       },
       {
+         ";" : ";; (mac:90:6E:BB:45:C8:9F) ? by Hon Hai Precision Industries Co Ltd",
+         "class" : "IN",
+         "content" : "10.19.13.3",
+         "name" : "a-unknown-3.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
          "class" : "IN",
          "content" : "5.144.171.254",
          "name" : "sethra.hamachi",
@@ -646,14 +718,14 @@
       },
       {
          "class" : "IN",
-         "content" : "0 1 10011 talk.alaspin.com.",
+         "content" : "0 1 10011 teamspeak.alaspin.com.",
          "name" : "_ts3._tcp",
          "ttl" : 3600,
          "type" : "SRV"
       },
       {
          "class" : "IN",
-         "content" : "0 1 9987 talk.alaspin.com.",
+         "content" : "0 1 9987 teamspeak.alaspin.com.",
          "name" : "_ts3._udp",
          "ttl" : 3600,
          "type" : "SRV"
@@ -669,6 +741,20 @@
          "class" : "IN",
          "content" : "a-owner-hpe-210f.4532CM.alaspin.com.",
          "name" : "mfi",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-owner-hpe-210f.4532CM.alaspin.com.",
+         "name" : "unifi.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-owner-hpe-210f.4532CM.alaspin.com.",
+         "name" : "mfi.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -692,6 +778,13 @@
          "class" : "IN",
          "content" : "a-default.alaspin.com.",
          "name" : "default",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-default.alaspin.com.",
+         "name" : "default.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -732,22 +825,36 @@
       },
       {
          "class" : "IN",
-         "content" : "pipe.alaspin.com.",
-         "name" : "dns-1-lan",
+         "content" : "gw.4532CM.alaspin.com.",
+         "name" : "dns-1.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "lan-server.alaspin.com.",
-         "name" : "dns-2-lan",
+         "content" : "a-rdns-1.alaspin.com.",
+         "name" : "dns-2.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "dns-1-lan.alaspin.com.",
-         "name" : "dns-lan",
+         "content" : "a-rdns-2.alaspin.com.",
+         "name" : "dns-3.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-rdns-3.alaspin.com.",
+         "name" : "dns-4.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "dns-1.4532CM.alaspin.com.",
+         "name" : "dns.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -762,6 +869,20 @@
          "class" : "IN",
          "content" : "a-rdns-2.alaspin.com.",
          "name" : "rdns-2",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-rdns-3.alaspin.com.",
+         "name" : "rdns-3",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-rdns-4.alaspin.com.",
+         "name" : "rdns-4",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -788,8 +909,15 @@
       },
       {
          "class" : "IN",
-         "content" : "dns-lan.alaspin.com.",
+         "content" : "rdns-1.alaspin.com.",
          "name" : "ns",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "dns-1.alaspin.com.",
+         "name" : "ns.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -866,6 +994,13 @@
       {
          "class" : "IN",
          "content" : "a-lan-server.4532CM.alaspin.com.",
+         "name" : "lan-server.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "lan-server.4532CM.alaspin.com.",
          "name" : "lan-server",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -893,57 +1028,57 @@
       },
       {
          "class" : "IN",
-         "content" : "grym.alaspin.com.",
+         "content" : "teamspeak.alaspin.com.",
          "name" : "talk",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.alaspin.com.",
+         "content" : "cs-ubuntu-002.alaspin.com.",
          "name" : "teamspeak",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.alaspin.com.",
+         "content" : "teamspeak.alaspin.com.",
          "name" : "ts",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.alaspin.com.",
-         "name" : "vent",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "grym.alaspin.com.",
-         "name" : "ventrilo",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "grym.alaspin.com.",
+         "content" : "teamspeak.alaspin.com.",
          "name" : "voice",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "a-pipe.4532CM.alaspin.com.",
-         "name" : "pipe",
+         "content" : "teamspeak.alaspin.com.",
+         "name" : "talk.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "pipe.alaspin.com.",
-         "name" : "gateway",
+         "content" : "cs-ubuntu-002.alaspin.com.",
+         "name" : "teamspeak.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "teamspeak.alaspin.com.",
+         "name" : "ts.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "teamspeak.alaspin.com.",
+         "name" : "voice.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -958,6 +1093,20 @@
          "class" : "IN",
          "content" : "firewall.alaspin.com.",
          "name" : "fw",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "d-firewall.alaspin.com.",
+         "name" : "firewall.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "firewall.alaspin.com.",
+         "name" : "fw.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -998,6 +1147,13 @@
       },
       {
          "class" : "IN",
+         "content" : "gw-2.alaspin.com.",
+         "name" : "time.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "a-BRN30055C470073.4532CM.alaspin.com.",
          "name" : "print",
          "ttl" : 3600,
@@ -1014,6 +1170,27 @@
          "class" : "IN",
          "content" : "print.alaspin.com.",
          "name" : "scan",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-BRN30055C470073.4532CM.alaspin.com.",
+         "name" : "print.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "print.alaspin.com.",
+         "name" : "ps.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "print.alaspin.com.",
+         "name" : "scan.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -1047,6 +1224,34 @@
       },
       {
          "class" : "IN",
+         "content" : "a-qse-100d-1.4532CM.alaspin.com.",
+         "name" : "qse-100d-0.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-qse-100d-1.4532CM.alaspin.com.",
+         "name" : "qse-100d-1.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "qse-100d-1.alaspin.com.",
+         "name" : "ip-ports-1.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "qse-100d-1.alaspin.com.",
+         "name" : "ip-com-1.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "a-homeseer.4532CM.alaspin.com.",
          "name" : "vm-homeseer",
          "ttl" : 3600,
@@ -1075,64 +1280,183 @@
       },
       {
          "class" : "IN",
+         "content" : "a-homeseer.4532CM.alaspin.com.",
+         "name" : "homeseer.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "homeseer.4532CM.alaspin.com.",
+         "name" : "hs.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-buffalo-wzr-hp-g300nh.4532CM.alaspin.com.",
+         "name" : "gw-1",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-ubiquity-er-x.4532CM.alaspin.com.",
+         "name" : "gw-2",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gw.alaspin.com.",
+         "name" : "gateway",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gw-1.alaspin.com.",
+         "name" : "gw",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gw.alaspin.com.",
+         "name" : "pipe",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-buffalo-wzr-hp-g300nh.4532CM.alaspin.com.",
+         "name" : "gw-1.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-ubiquity-er-x.4532CM.alaspin.com.",
+         "name" : "gw-2.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gw.4532CM.alaspin.com.",
+         "name" : "gateway.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gw-1.4532CM.alaspin.com.",
+         "name" : "gw.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "gw.4532CM.alaspin.com.",
+         "name" : "pipe.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "a-unifi-ap-ac-1.4532CM.alaspin.com.",
-         "name" : "wap-1",
+         "name" : "wap-1.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
          "content" : "a-unifi-ap-ac-2.4532CM.alaspin.com.",
-         "name" : "wap-2",
+         "name" : "wap-2.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
          "content" : "a-unifi-ap-ac-3.4532CM.alaspin.com.",
-         "name" : "wap-3",
+         "name" : "wap-3.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
          "content" : "a-netgear-gs748t.4532CM.alaspin.com.",
-         "name" : "sw-1",
+         "name" : "sw-1.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "a-ubiquity-sw.4532CM.alaspin.com.",
+         "name" : "sw-2.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "sw-1.4532CM.alaspin.com.",
+         "name" : "sw.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
          "content" : "a-qnap-ts-859p-1.4532CM.alaspin.com.",
-         "name" : "qnap-ts-859-1",
+         "name" : "qnap-ts-859-1.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
          "content" : "a-qnap-ts-1679u-rp-1.4532CM.alaspin.com.",
-         "name" : "qnap-ts-1679-1",
+         "name" : "qnap-ts-1679-1.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-ts-859-1.alaspin.com.",
+         "content" : "qnap-ts-859-1.4532CM.alaspin.com.",
          "name" : "qnap-1",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-ts-1679-1.alaspin.com.",
+         "content" : "qnap-ts-1679-1.4532CM.alaspin.com.",
          "name" : "qnap-2",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "qnap-2.alaspin.com.",
+         "content" : "qnap-2.4532CM.alaspin.com.",
          "name" : "qnap",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "qnap-ts-859-1.4532CM.alaspin.com.",
+         "name" : "qnap-1.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "qnap-ts-1679-1.4532CM.alaspin.com.",
+         "name" : "qnap-2.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "qnap-2.4532CM.alaspin.com.",
+         "name" : "qnap.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -1159,6 +1483,27 @@
       },
       {
          "class" : "IN",
+         "content" : "qnap-1.4532CM.alaspin.com.",
+         "name" : "nas-1.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "qnap-2.4532CM.alaspin.com.",
+         "name" : "nas-2.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "nas-2.4532CM.alaspin.com.",
+         "name" : "nas.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
          "content" : "qnap-2.alaspin.com.",
          "name" : "hoard",
          "ttl" : 3600,
@@ -1168,6 +1513,20 @@
          "class" : "IN",
          "content" : "qnap-2.alaspin.com.",
          "name" : "media",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "qnap-2.4532CM.alaspin.com.",
+         "name" : "hoard.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "qnap-2.4532CM.alaspin.com.",
+         "name" : "media.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -1222,71 +1581,50 @@
       },
       {
          "class" : "IN",
-         "content" : "sethra.hamachi.alaspin.com.",
-         "name" : "sethra.vpn",
+         "content" : "ubuntu-002.alaspin.com.",
+         "name" : "ubuntu.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "grym.hamachi.alaspin.com.",
-         "name" : "grym.vpn",
+         "content" : "cs-ubuntu-001.alaspin.com.",
+         "name" : "ubuntu-001.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "loish.hamachi.alaspin.com.",
-         "name" : "loish.vpn",
+         "content" : "cs-ubuntu-002.alaspin.com.",
+         "name" : "ubuntu-002.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "verra.hamachi.alaspin.com.",
-         "name" : "verra.vpn",
+         "content" : "a-lan-server.4532CM.alaspin.com.",
+         "name" : "ubuntu-003.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "wynd.hamachi.alaspin.com.",
-         "name" : "wynd.vpn",
+         "content" : "ubuntu-001.alaspin.com.",
+         "name" : "ubuntu-1.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vb-ubuntu.hamachi.alaspin.com.",
-         "name" : "vm-ubuntu.vpn",
+         "content" : "ubuntu-002.alaspin.com.",
+         "name" : "ubuntu-2.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
-         "content" : "vb-xp.hamachi.alaspin.com.",
-         "name" : "vm-xp.vpn",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "vb-v.hamachi.alaspin.com.",
-         "name" : "vm-v.vpn",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "vb-v64.hamachi.alaspin.com.",
-         "name" : "vm-v64.vpn",
-         "ttl" : 3600,
-         "type" : "CNAME"
-      },
-      {
-         "class" : "IN",
-         "content" : "vb-homeseer.hamachi.alaspin.com.",
-         "name" : "vm-homeseer.vpn",
+         "content" : "ubuntu-003.alaspin.com.",
+         "name" : "ubuntu-3.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
       },
@@ -1314,7 +1652,7 @@
       },
       {
          "class" : "IN",
-         "content" : "a-smtp.alaspin.com",
+         "content" : "smtp.4532CM.alaspin.com",
          "name" : "4532CM",
          "prio" : 10,
          "ttl" : 3600,
@@ -1398,12 +1736,35 @@
          "type" : "CNAME"
       },
       {
-         ";" : ";; ALIAS:a-sb-2.wotw.net.",
+         ";" : "; (emacs/sublime) -*- coding: utf8-unix; indent-tabs-mode: nil; tab-width: 4; -*-",
          "class" : "IN",
-         "content" : "a-sb-2.wotw.net.",
-         "name" : "xx",
+         "content" : "64.34.161.56",
+         "name" : "aa.4532CM",
          "ttl" : 3600,
-         "type" : "ALIAS"
+         "type" : "A"
+      },
+      {
+         "class" : "IN",
+         "content" : "1.2.3.4",
+         "name" : "bb.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : "; NOTE: DNS testing available at ZoneVision (URL: http://zone.vision/#/[DOMAIN]), created by DNSimple",
+         "class" : "IN",
+         "content" : "2.3.4.5.4532CM.alaspin.com.",
+         "name" : "cc.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         ";" : "; NOTE: DNS testing available at pingdom (URL: http://dnscheck.pingdom.com/?domain=[DOMAIN])",
+         "class" : "IN",
+         "content" : "3.4.5.6",
+         "name" : "dd.xx.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
       }
    ]
 }

@@ -1141,13 +1141,27 @@
       {
          "class" : "IN",
          "content" : "us.pool.ntp.org.",
-         "name" : "time",
+         "name" : "ntp",
          "ttl" : 3600,
          "type" : "CNAME"
       },
       {
          "class" : "IN",
          "content" : "gw-2.alaspin.com.",
+         "name" : "ntp.4532CM",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "ntp.alaspin.com.",
+         "name" : "time",
+         "ttl" : 3600,
+         "type" : "CNAME"
+      },
+      {
+         "class" : "IN",
+         "content" : "ntp.4532CM.alaspin.com.",
          "name" : "time.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"

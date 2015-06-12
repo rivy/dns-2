@@ -210,10 +210,10 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:04:18:D6:06:21:13) Ubiquity EdgeRouter X [ER-X]",
+         ";" : ";; (mac:04:18:D6:06:21:13) Ubiquity (UBNT) EdgeRouter X [ER-X]",
          "class" : "IN",
          "content" : "10.19.1.2",
-         "name" : "a-ubiquity-er-x.4532CM",
+         "name" : "a-ubnt-er-x.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -237,7 +237,7 @@
          ";" : ";; (mac:04:18:D6:07:C0:00) Ubiquity (UBNT) ToughSwitch POE Pro (id: admin, pw:SAv2.11) [TOUGHSwitch PoE PRO]",
          "class" : "IN",
          "content" : "10.19.1.6",
-         "name" : "a-ubnt-ts-poe-pro-1.4532CM",
+         "name" : "a-ubnt-tsw-poe-pro-1.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -389,7 +389,7 @@
          ";" : ";; (mac:24:a4:3c:33:ac:f7) UBNT mFi mPower Pro (8-port) [P8U]",
          "class" : "IN",
          "content" : "10.19.5.1",
-         "name" : "a-mpower-8-1.4532CM",
+         "name" : "a-ubnt-mp8u-33acf7.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -397,7 +397,7 @@
          ";" : ";; (mac:dc:9f:db:49:a8:44) UBNT mFi mPower (3-port) [P3U]",
          "class" : "IN",
          "content" : "10.19.5.2",
-         "name" : "a-mpower-3-1.4532CM",
+         "name" : "a-ubnt-mp3u-49a844.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -405,7 +405,7 @@
          ";" : ";; (mac:24:a4:3c:8b:0f:53) UBNT mFi mPower Mini (1-port) [P1U]",
          "class" : "IN",
          "content" : "10.19.5.3",
-         "name" : "a-mpower-1-1.4532CM",
+         "name" : "a-ubnt-mp1u-8b0f53.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -413,7 +413,7 @@
          ";" : ";; (mac:24:a4:3c:8b:0f:88) UBNT mFi mPower Mini (1-port) [P1U]",
          "class" : "IN",
          "content" : "10.19.5.4",
-         "name" : "a-mpower-1-2.4532CM",
+         "name" : "a-ubnt-mp1u-8b0f88.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -421,7 +421,7 @@
          ";" : ";; (mac:24:a4:3c:8b:0f:59) UBNT mFi mPower Mini (1-port) [P1U]",
          "class" : "IN",
          "content" : "10.19.5.5",
-         "name" : "a-mpower-1-3.4532CM",
+         "name" : "a-ubnt-mp1u-8b0f59.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -429,7 +429,7 @@
          ";" : ";; (mac:24:a4:3c:8b:0f:6a) UBNT mFi mPower Mini (1-port) [P1U]",
          "class" : "IN",
          "content" : "10.19.5.6",
-         "name" : "a-mpower-1-4.4532CM",
+         "name" : "a-ubnt-mp1u-8b0f6a.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },

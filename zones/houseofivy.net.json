@@ -210,7 +210,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:04:18:D6:06:21:13) Ubiquity (UBNT) EdgeRouter X [ER-X]",
+         ";" : ";; (mac:04:18:D6:06:21:13) Ubiquity (UBNT) EdgeRouter X [ER-X] (id: admin, pw:SAv2.11)",
          "class" : "IN",
          "content" : "10.19.1.2",
          "name" : "a-ubnt-er-x.4532CM",
@@ -242,7 +242,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:24:A4:3C:50:77:F3) WAP (Ubiquity Unifi AP AC)",
+         ";" : ";; (mac:24:A4:3C:50:77:F3) WAP (Ubiquity (UBNT) Unifi AP AC)",
          "class" : "IN",
          "content" : "10.19.1.8",
          "name" : "a-unifi-ap-ac-3.4532CM",
@@ -250,7 +250,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:24:A4:3C:50:77:E5) WAP (Ubiquity Unifi AP AC)",
+         ";" : ";; (mac:24:A4:3C:50:77:E5) WAP (Ubiquity (UBNT) Unifi AP AC)",
          "class" : "IN",
          "content" : "10.19.1.9",
          "name" : "a-unifi-ap-ac-2.4532CM",
@@ -258,7 +258,7 @@
          "type" : "A"
       },
       {
-         ";" : ";; (mac:04:18:D6:10:5B:7D) WAP (Ubiquity Unifi AP AC)",
+         ";" : ";; (mac:04:18:D6:10:5B:7D) WAP (Ubiquity (UBNT) Unifi AP AC)",
          "class" : "IN",
          "content" : "10.19.1.10",
          "name" : "a-unifi-ap-ac-1.4532CM",
@@ -434,10 +434,26 @@
          "type" : "A"
       },
       {
+         ";" : ";; (mac:24:A4:3C:8B:0F:72) UBNT mFi mPower Mini (1-port) [P1U]",
+         "class" : "IN",
+         "content" : "10.19.5.7",
+         "name" : "a-ubnt-mp1u-8b0f72.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
+         ";" : ";; (mac:24:a4:3c:8b:0f:8e) UBNT mFi mPower Mini (1-port) [P1U]",
+         "class" : "IN",
+         "content" : "10.19.5.8",
+         "name" : "a-ubnt-mp1u-8b0f8e.4532CM",
+         "ttl" : 3600,
+         "type" : "A"
+      },
+      {
          ";" : ";; (mac:ec:1a:59:f7:23:61) WeMo Insight Switch (power sensing switch)",
          "class" : "IN",
          "content" : "10.19.5.51",
-         "name" : "a-wemo-is-1.4532CM",
+         "name" : "a-wemo-is-f72361.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -445,7 +461,7 @@
          ";" : ";; (mac:ec:1a:59:f7:f5:49) WeMo Insight Switch (power sensing switch)",
          "class" : "IN",
          "content" : "10.19.5.52",
-         "name" : "a-wemo-is-2.4532CM",
+         "name" : "a-wemo-is-f7f549.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -453,7 +469,7 @@
          ";" : ";; (mac:ec:1a:59:f7:f9:1d) WeMo Insight Switch (power sensing switch)",
          "class" : "IN",
          "content" : "10.19.5.53",
-         "name" : "a-wemo-is-3.4532CM",
+         "name" : "a-wemo-is-f7f91d.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -461,7 +477,7 @@
          ";" : ";; (mac:ec:1a:59:f8:3e:3d) WeMo Insight Switch (power sensing switch)",
          "class" : "IN",
          "content" : "10.19.5.54",
-         "name" : "a-wemo-is-4.4532CM",
+         "name" : "a-wemo-is-f83e3d.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -469,7 +485,7 @@
          ";" : ";; (mac:00:C0:B7:97:67:EB) APC Smart-UPS 1000 (id:apc, pw:SAv2)",
          "class" : "IN",
          "content" : "10.19.6.1",
-         "name" : "a-apc-1.4532CM",
+         "name" : "a-apc-su-1000-9767eb.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -477,7 +493,7 @@
          ";" : ";; (mac:D0:73:D5:03:94:70) LIFX bulb [Master - Nightstand-S]",
          "class" : "IN",
          "content" : "10.19.7.1",
-         "name" : "a-light-1.4532CM",
+         "name" : "a-lifx-039470.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -485,7 +501,7 @@
          ";" : ";; (mac:D0:73:D5:03:59:29) LIFX bulb [Master - Nightstand-N]",
          "class" : "IN",
          "content" : "10.19.7.2",
-         "name" : "a-light-2.4532CM",
+         "name" : "a-lifx-035929.4532CM",
          "ttl" : 3600,
          "type" : "A"
       },
@@ -1315,7 +1331,7 @@
       },
       {
          "class" : "IN",
-         "content" : "a-ubiquity-er-x.4532CM.houseofivy.net.",
+         "content" : "a-ubnt-er-x.4532CM.houseofivy.net.",
          "name" : "gw-2",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -1350,7 +1366,7 @@
       },
       {
          "class" : "IN",
-         "content" : "a-ubiquity-er-x.4532CM.houseofivy.net.",
+         "content" : "a-ubnt-er-x.4532CM.houseofivy.net.",
          "name" : "gw-2.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
@@ -1406,7 +1422,7 @@
       },
       {
          "class" : "IN",
-         "content" : "a-ubiquity-sw.4532CM.houseofivy.net.",
+         "content" : "a-ubnt-sw.4532CM.houseofivy.net.",
          "name" : "sw-2.4532CM",
          "ttl" : 3600,
          "type" : "CNAME"
